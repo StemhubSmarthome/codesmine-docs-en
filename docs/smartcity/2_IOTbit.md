@@ -20,7 +20,7 @@ It is the most powerful Wi-Fi extension board for micro:bit in the STEM communit
 * The Most powerful IoT chip ESP32 embedded for micro:bit
 * Exchangeable wireless modular design (ESP8266, ESP32, BLE)
 * Integrated OLED and Onboard buzzer embedded
-* Extended I/O port x13, I2C port x2 from mirco:bit with GVS socket
+* Extended I/O port x13, I2C port x2 from Micro:bit with GVS socket
 * Extended Servo port x3 from ESP module 
 * Various types of power supply (USB, 3.7V lithium battery, 6V Normal battery)
 * Extra Port: Crocodile Pin, Quick Access Port and 4-Pin Port for different usage
@@ -44,7 +44,7 @@ Hole diameter: 4mm<BR>
 |Buzzer|Passive Buzzer(Musical)||
 |Wireless Module|ESP8266<BR>ESP32<BR>Bluetooth|Operate under UART protocol|
 |OLED Module|128*64 resolution OLED<BR> Screen SSD1306|Operate under I2C protocol|
-|Mirco:bit lead out|13 I/O Pins<BR>(13 Digital & AnalogOut Pins)<BR>(6 AnalogIn Pins)|<B>Reserved Pins:</B><BR>Wireless module:P8,P16<BR>4-Pins module:P12,P13|
+|Micro:bit lead out|13 I/O Pins<BR>(13 Digital & AnalogOut Pins)<BR>(6 AnalogIn Pins)|<B>Reserved Pins:</B><BR>Wireless module:P8,P16<BR>4-Pins module:P12,P13|
 |I2C Pins|P19,P20|3 available ports,<BR>1 port reserved for OLED|
 |ESP lead out|3 Pins for servo control(S1,S2,S3)|Control by ESP chip|
 
@@ -86,7 +86,7 @@ Please open the image in the new tab for full size
   <tr>
     <th class="tg-ux7d">Type</th>
     <th class="tg-ux7d"></th>
-    <th class="tg-ux7d">Mirco:bit</th>
+    <th class="tg-ux7d">Micro:bit</th>
     <th class="tg-ux7d">IoT:bit</th>
     <th class="tg-ux7d">Extra Port</th>
   </tr>
@@ -221,7 +221,7 @@ Please open the image in the new tab for full size
 
 ![pic](images/2_IOT/iot_image02.jpg)
 
-1. Mirco:bit edge connecter
+1. Micro:bit edge connecter
 2. USB Port 
 3. Power Switch
 4. 3.7V Lithium battery Port [XH2.54] 
@@ -241,13 +241,13 @@ Please open the image in the new tab for full size
 
 ## Detail Hardware Description
 
-<H3>Mirco:bit edge connecter</H3><BR>
+<H3>Micro:bit edge connecter</H3><BR>
 ![pic](images/2_IOT/iot_image04.png)
 <P>Provide the socket for the Micro:bit to install. Follow the instruction icon right about that to install the Micro:bit to the expansion board.
 
 <H3>Power port(USB, Battery, DC) & Switch</H3><BR>
 ![pic](images/2_IOT/iot_image05.png)
-<P>Provide three different type of methods to power on the expansion board and Mirco:bit. User can either choose common 5V USB power, or two different port which connect to 3.7V ~ 6V battery box. 
+<P>Provide three different type of methods to power on the expansion board and Micro:bit. User can either choose common 5V USB power, or two different port which connect to 3.7V ~ 6V battery box. 
 
 <H3>OLED Module</H3>
 
@@ -256,7 +256,7 @@ Please open the image in the new tab for full size
 
 <H3>Wireless Module</H3><BR>
 ![pic](images/2_IOT/iot_image07.png)
-<P>The Wireless Module provide the Core function of the expansion board. Though different modules install on the socket, Mirco:bit gain the correspond connectivity ability. User may install ESP32, ESP8266, Bluetooth to implement various application project, make use of the IoT resource.
+<P>The Wireless Module provide the Core function of the expansion board. Though different modules install on the socket, Micro:bit gain the correspond connectivity ability. User may install ESP32, ESP8266, Bluetooth to implement various application project, make use of the IoT resource.
 
 <H3>ESP Servo port</H3><BR>
 ![pic](images/2_IOT/iot_image08.png)
@@ -264,7 +264,7 @@ Please open the image in the new tab for full size
 
 <H3>Micro:bit lead out Pins</H3><BR>
 ![pic](images/2_IOT/iot_image09.png)
-<P>The Lead Out from the Mirco:bit I/O pins, provide great expansion feature for the Mirco:bit , user can connect up to 13 different sensor/actuator at the same time. Each independent GVS socket make the connection become more connivance. 
+<P>The Lead Out from the Micro:bit I/O pins, provide great expansion feature for the Micro:bit , user can connect up to 13 different sensor/actuator at the same time. Each independent GVS socket make the connection become more connivance. 
 
 <H3>Buzzer & Switch</H3><BR>
 ![pic](images/2_IOT/iot_image10.png)
@@ -287,20 +287,20 @@ Please open the image in the new tab for full size
 
 <H3>MakeCode editor</H3>
 
-The MakeCode editor is the official cross-platform editor designed for BBC Mirco:bit, it is available on Web Browser, Mobile and tablets Apps. The Colorful coding block is familiar to who previously used Scratch, providing a simple and clear way to programming on the Micro:bit.<P>
+The MakeCode editor is the official cross-platform editor designed for BBC Micro:bit, it is available on Web Browser, Mobile and tablets Apps. The Colorful coding block is familiar to who previously used Scratch, providing a simple and clear way to programming on the Micro:bit.<P>
 The editor offer a text-based mode for user to programming using JavaScript rather than drag the blocks<BR>
 [MakeCode](https://makecode.microbit.org/#editor)
 ![auto_fit](images/2_IOT/iot_image13.png)
 
 <H3>Python editor</H3><P>
-Python is one of the most famous programming language, widely used in school and industry. Micro:bit provided an online python editor for user to study and exercise python on Micro:bit. User just need to connect Mirco:bit with USB and click the Flash button, the compile and upload progress will be finish automatically. <BR>
+Python is one of the most famous programming language, widely used in school and industry. Micro:bit provided an online python editor for user to study and exercise python on Micro:bit. User just need to connect Micro:bit with USB and click the Flash button, the compile and upload progress will be finish automatically. <BR>
 [Python editor](https://python.microbit.org/v/2.0)
 ![auto_fit](images/2_IOT/iot_image14.png)
 
 
 ## Quick Start
 
-<H4>1.Plug the Mirco:bit(with Program) into the the slot</H4><P>
+<H4>1.Plug the Micro:bit(with Program) into the the slot</H4><P>
 
 >![auto_fit](images/2_IOT/iot_MBsolt.gif)<P>
 

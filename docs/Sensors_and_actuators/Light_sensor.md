@@ -19,7 +19,7 @@ When the Illumination is decrease, the resistance of resistor will increase. <BR
 * Supply Voltage: 3.3V to 5V
 * Interface: Analog 
 * Output Voltage Range: 1%~90% of supply Voltage
-* Reading in the PXT(with Mirco:bit): 1~100(0.04V~3.3V)
+* Reading in the PXT(with Micro:bit): 1~100(0.04V~3.3V)
 
 
 ## Pinout Diagram

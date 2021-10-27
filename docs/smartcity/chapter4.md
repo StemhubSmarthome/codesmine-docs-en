@@ -97,7 +97,7 @@ You could also download the program from the following website:<BR>
 <HR>
 
 <H3>Goal:</H3>
-We need to setup the IFTTT Applet to control the Mircobit
+We need to setup the IFTTT Applet to control the Micro:bit
 
 
 <span id="subtitle" >Step 1: Create or login to IFTTT account</span><P>
@@ -130,7 +130,7 @@ On IFTTT configuration, set the below. We can set the rule on the IFTTT, if some
 1.Search “micro:bit” and you will see “Smarthon IoT(micro:bit)”<P>
 ![auto_fit](images/Ch4/Ch4_2_ifttt1_6.png)<P>
 
-2.Finish the mirco:bit setting.
+2.Finish the Micro:bit setting.
 * Choose action "Control Command"
 * Input your `Device ID` (e.g. 0xa3240ac45916) and `control command` (e.g. light_on). Then click "Create action"
 ![auto_fit](images/Ch4/Ch4_2_ifttt1_7.png)<P>
