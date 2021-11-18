@@ -37,8 +37,10 @@ Assembly completed!<BR><P>
 ## Hardware connect
 <HR>
 
-Connect the white LED Light to P1 port of IoT:bit<BR><P>
+Connect the white LED Light to P0 port of IoT:bit<BR><P>
 ![auto_fit](images/Case10/Case10_hardware.png)<P>
+
+*Pull the buzzer switch 'up' to disconnect the buzzer in this execrise*
 
 ## Programming (MakeCode)
 <HR>
@@ -65,16 +67,22 @@ Connect the white LED Light to P1 port of IoT:bit<BR><P>
 <span id="subtitle">Step 4. Turn on/off LED by WAN command</span><BR><P>
 * Snap `if-condition`
 * Set variable `WAN_Command` = `lighton` into `if-condition`
-* `turn White LED …` from `SmartCity` > `Output`, turn white LED with intensity: 1023 at P1
+* `turn White LED …` from `SmartCity` > `Output`, turn white LED with intensity: 1023 at P0
 * Set variable `WAN_Command` = `lightoff` into `else-if-condition` 
-* Snap `turn White LED …` from `SmartCity` > `Output`, turn white LED with intensity: 0 at P1
+* Snap `turn White LED …` from `SmartCity` > `Output`, turn white LED with intensity: 0 at P0
 ![auto_fit](images/Case10/Case10_p4.png)<P>
 
 
 <span id="subtitle">Full Solution<BR><P>
+<<<<<<< HEAD
+MakeCode: [https://makecode.microbit.org/_6DuRvwD5PYpU](https://makecode.microbit.org/_6DuRvwD5PYpU)<BR><P>
+You could also download the program from the following website:<BR>
+<iframe src="https://makecode.microbit.org/#pub:_6DuRvwD5PYpU" width="100%" height="500" frameborder="0"></iframe>
+=======
 MakeCode: [https://makecode.microbit.org/_2cRf6LWq69AL](https://makecode.microbit.org/_2cRf6LWq69AL)<BR><P>
 You could also download the program from the following website:<BR>
 <iframe src="https://makecode.microbit.org/#pub:_2cRf6LWq69AL" width="100%" height="500" frameborder="0"></iframe>
+>>>>>>> f16ca1229b020beb4e91d7e16791193a6cb0c679
 
 
 ## IoT (IFTTT)

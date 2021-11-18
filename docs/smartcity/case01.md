@@ -47,6 +47,8 @@ Connect LED light to the P3 port of Smarthon IoT:bit<BR><P>
 <BR>![auto_fit](images/Case1/Case1_hardware.png)
 <P>
 
+*Pull the buzzer switch 'up' to disconnect the buzzer in this execrise*
+
 ## Programming (MakeCode)
 <HR>
 

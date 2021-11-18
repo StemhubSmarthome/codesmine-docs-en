@@ -50,6 +50,7 @@ Connect Light Sensor to P0 port of IoT:bit<BR><P>
 Connect 180° Servo to P2 port of IoT:bit<BR><P>
 ![auto_fit](images/Case2/Case2_hardware.png)<P>
 
+*Pull the buzzer switch 'up' to disconnect the buzzer in this execrise*
 ## Programming (MakeCode)
 <HR>
 

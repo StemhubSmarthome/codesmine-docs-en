@@ -46,6 +46,7 @@ Connect the Raindrop Sensor to P0 port of IoT:bit<BR><P>
 Connect the Temperature and humidity Sensor to P2 port of IoT:bit<BR><P>
 ![auto_fit](images/Case6/Case6_hardware.png)<P>
 
+*Pull the buzzer switch 'up' to disconnect the buzzer in this execrise*
 
 ## IoT (ThingSpeak)
 <HR>

@@ -40,6 +40,7 @@ N/A
 Connect the Light Sensor to P0 port of IoT:bit<BR><P>
 ![auto_fit](images/Case8/Case8a_hardware.png)<P>
 
+*Pull the buzzer switch 'up' to disconnect the buzzer in this execrise*
 
 ### Programming (MakeCode)
 <HR>

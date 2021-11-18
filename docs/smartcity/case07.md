@@ -44,6 +44,7 @@ Connect the Motion Sensor to P1 port of IoT:bit<BR><P>
 Turn on the Buzzer Switch on P0 port of IoT:bit<BR><P>
 ![auto_fit](images/Case7/Case7_hardware.png)<P>
 
+*Pull the buzzer switch <B>'down'</B> to connect the buzzer in this execrise*
 ## IoT (IFTTT)
 <HR>
 
