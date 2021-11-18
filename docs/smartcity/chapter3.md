@@ -70,6 +70,7 @@ We need to get the Device ID and set the corresponding action.<BR><P>
 
 ![auto_fit](images/Ch3/Ch3_hardware.png)<P>
 
+*Pull the buzzer switch 'up' to disconnect the buzzer in this execrise*
 
 <span id="subtitle">Step 1: Connect WiFI</span><BR><P>
 Before we try to use WiFi Control function, we need to connect to the network, we have already know how to connect to the WiFi on the first chapter.
