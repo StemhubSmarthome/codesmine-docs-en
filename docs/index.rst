@@ -17,3 +17,5 @@ Quick Start Guide
     smarthouse/index
     smartplant/index
     Sensors_and_actuators/index
+    smartHomeIoT/index
+    smartPlantIoT/index
