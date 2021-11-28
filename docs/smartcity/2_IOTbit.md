@@ -249,34 +249,37 @@ Please open the image in the new tab for full size
 ![pic](images/2_IOT/iot_image05.png)
 <P>Provide three different type of methods to power on the expansion board and Micro:bit. User can either choose common 5V USB power, or two different port which connect to 3.7V ~ 6V battery box. 
 
-<H3>OLED Module</H3>
-
-![pic](images/2_IOT/iot_image06.png)
-<P>The expansion board have the reserved space to place a SSD1306 0.96 inch OLED screen. User can use the I2C connection port to output the visual element on that module.
-
 <H3>Wireless Module</H3><BR>
-![pic](images/2_IOT/iot_image07.png)
+![pic](images/2_IOT/iot_image06.png)
 <P>The Wireless Module provide the Core function of the expansion board. Though different modules install on the socket, Micro:bit gain the correspond connectivity ability. User may install ESP32, ESP8266, Bluetooth to implement various application project, make use of the IoT resource.
+
+<H3>OLED Module</H3>
+![pic](images/2_IOT/iot_image07.png)
+<P>The expansion board have the reserved space to place a SSD1306 0.96 inch OLED screen. User can use the I2C connection port to output the visual element on that module.
 
 <H3>ESP Servo port</H3><BR>
 ![pic](images/2_IOT/iot_image08.png)
 <P>When installed the ESP32 module, it provide extra 3 servo control port to connect the Servo motor. Compatible with general GVS 180/360 Servo motor (SG90/SG90S)
 
+<H3>Buzzer & Switch</H3><BR>
+![pic](images/2_IOT/iot_image10.png)
+<P>The IoT Bit built in a Passive Buzzer on the board, which connected to P0. Using the program can generate different tone of sound.<BR>Since each I/O pin should be only serve for one sensor/actuators at the same time, so you should pulling the switch down (to the sound icon) when using buzzer, otherwise pulling the switch up (to the mute icon) to avoid the interrupt from buzzer to P0.
+
 <H3>Micro:bit lead out Pins</H3><BR>
 ![pic](images/2_IOT/iot_image09.png)
 <P>The Lead Out from the Micro:bit I/O pins, provide great expansion feature for the Micro:bit , user can connect up to 13 different sensor/actuator at the same time. Each independent GVS socket make the connection become more connivance. 
 
-<H3>Buzzer & Switch</H3><BR>
-![pic](images/2_IOT/iot_image10.png)
-<P>The IoT Bit built-in a Passive Buzzer on the board, which connected to P0. Using the program can generate different tone of sound. With the switch, it can have manual control to the audio.
+<H3>4-Pins Module Port</H3><BR>
+![pic](images/2_IOT/iot_image12.png)
+<P>On the IoT Bit, two ports are reserved for the 4 Pins Module. Each port can connect to some sensors or actuators which required use two I/O Pins at the same time, such Distance Sesnor and Motor. In total, there are 4 I/O Pins being used, they are P12, P13, P14, P15 respectively.
+
+<H3>I2C Port</H3><BR>
+![pic](images/2_IOT/iot_image15.png)
+<P>Since Micro:bit support I2C protocol, IoT:bit provide three I2C port (one reserved for OLED Module) to connect I2C peripherals, make the IoT project can access more sensors/actuators.
 
 <H3>Rapid Access Port</H3><BR>
 ![pic](images/2_IOT/iot_image11.png)
 <P>To some GVS sensor which provide the Rapid Insert Pin, it can use on the Rapid Access Port. It do not need to use the cable to connect the sensor, simplify the product in the application.
-
-<H3>4-Pins Module port</H3><BR>
-![pic](images/2_IOT/iot_image12.png)
-<P>On the IoT Bit, two ports are reserved for the 4 Pins Module. Each port can connect to some sensors or actuators which required use two I/O Pins at the same time, such Distance Sesnor and Motor. In total, there are 4 I/O Pins being used, they are P12, P13, P14, P15 respectively.
 
 <H3>Crocodile Pin</H3><BR>
 ![pic](images/2_IOT/iot_image12_5.png)
