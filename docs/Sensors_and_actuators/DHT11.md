@@ -1,4 +1,4 @@
-# DHT11
+# Temperature and Humidity sensor (DHT11)
 
 ![pic_70](images/DHT11_0.jpg)
 ## Introduction

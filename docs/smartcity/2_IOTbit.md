@@ -271,7 +271,7 @@ Please open the image in the new tab for full size
 
 <H3>4-Pins Module Port</H3><BR>
 ![pic](images/2_IOT/iot_image12.png)
-<P>On the IoT Bit, two ports are reserved for the 4 Pins Module. Each port can connect to some sensors or actuators which required use two I/O Pins at the same time, such Distance Sesnor and Motor. In total, there are 4 I/O Pins being used, they are P12, P13, P14, P15 respectively.
+<P>On the IoT Bit, two ports are reserved for the 4 Pins Module. Each port can connect to some sensors or actuators which required use two I/O Pins at the same time, such Distance Sesnor. In total, there are 4 I/O Pins being used, they are P12, P13, P14, P15 respectively.
 
 <H3>I2C Port</H3><BR>
 ![pic](images/2_IOT/iot_image15.png)

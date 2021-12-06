@@ -1,5 +1,4 @@
-# Ultrasonic Distance Sensor US-025A
-
+# Ultrasonic Distance Sensor
 ![pic_70](images/Ultrasonic_Distance_Sensor_0.jpg)
 ## Introduction
 The Distance sensor using two ultrasonic sensors to detect the distance between current position and object. In most situation, the availability of ultrasonic allow it provided quick and accurate result.

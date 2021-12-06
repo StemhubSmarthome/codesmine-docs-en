@@ -1,8 +1,8 @@
-# Motion Sensor
+# PIR Motion Sensor
 
 ![pic_70](images/Motion_Sensor_0.jpg)
 ## Introduction
-The Motion Sensor use a pyroelectric infrared sensor to detect any moving object at front.When the infrared signal have rapid change, the sensor will return high to user, otherwise, return low.
+The PIR Motion Sensor use a pyroelectric infrared sensor to detect any moving object at front.When the infrared signal have rapid change, the sensor will return high to user, otherwise, return low.
 <P>
 
 ## The principle

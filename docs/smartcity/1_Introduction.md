@@ -37,8 +37,8 @@ No | Component |Quantity|Remark
 11|180° Servo|1|
 12|Cardboard-wooden Model|1|
 13|City Map|1|
-14|Module Wire(3P\*8,4P\*1)|9|
-15|Extension Wire(3P\*5,4P\*2,Servo\*1)|8|
+14|Module Wire|9|3Pin\*8,4Pin\*1
+15|Extension Wire|8|3Pin\*5,4Pin\*2,Servo\*1
 16|Screw M2\*10mm|12|
 17|Screw M3\*10mm|6|
 18|Screw M4\*10mm|30|
