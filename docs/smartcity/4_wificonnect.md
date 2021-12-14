@@ -86,5 +86,5 @@ After the IoT:bit is connected to the wifi, when disconnect to the router. It wi
 1. Router is too far away
 2. No that AP actually 
 3. The typo on SSID/PWD
-
+4. The battery have run out, please change to new battery
 ![auto_fit](images/4_ConnectWiFi/Wifi_result3.png)<P>
