@@ -1,4 +1,4 @@
-# IoT Case 09: Smart House door control 
+# IoT Case 09: Smart House door control
 
 Level: ![level](images/level4.png)
 ![auto_fit](images/Case9/case-09.png)<P>
@@ -26,7 +26,7 @@ When the micro:bit receives the signal “opendoor” from the app, the 180o ser
 <HR>
 
 <span id="subtitle">Step 1</span><BR><P>
-Attach the L-shaped stand with M4 screws and nuts to the model H1. Make a small hole to fix into the stand securely.<BR><P>
+Attach the L-shaped stand with M3 screws and nuts to the model H1. Make a small hole to fix into the stand securely.<BR><P>
 ![auto_fit](images/Case9/Case9_ass1.png)<P>
 <span id="subtitle">Step 2</span><BR><P>
 Attach the servo to the model H1.<BR><P>
@@ -120,7 +120,7 @@ Make the programming part
 * Download the App in your phone to by .apk or scan QR code.
 ![auto_fit](images/Case9/Case9_iot4.png)<P>
  
-## Result 
+## Result
 Input your device ID number in the textbox, then click button “opendoor” to send command “opendoor”. Click button “Close Door” to send command “closedoor”.<BR><P>
 ![auto_fit](images/Case9/Case9_result1.png)<P>
 
