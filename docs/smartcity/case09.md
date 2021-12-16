@@ -20,7 +20,7 @@ When the micro:bit receives the signal “opendoor” from the app, the 180o ser
 ## Part List
 <HR>
 
-![auto_fit](images/Case9/Case9_parts.png)<P>
+![auto_fit](images/Case9/case9_parts.png)<P>
 
 ## Assembly step
 <HR>
