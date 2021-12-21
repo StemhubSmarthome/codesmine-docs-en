@@ -39,12 +39,12 @@ No | Component |Quantity|Remark
 13|City Map|1|
 14|Module Wire|9|3Pin\*8,4Pin\*1
 15|Extension Wire|8|3Pin\*5,4Pin\*2,Servo\*1
-16|Screw M2\*10mm|12|
-17|Screw M3\*10mm|6|
-18|Screw M4\*10mm|30|
-19|Nut M2|12|
-20|Nut M3|6|
-21|Nut M4|30|
+16|M2\*10mm Screw|12|
+17|M3\*10mm Screw|6|
+18|M4\*10mm Screw|30|
+19|M2 Nut|12|
+20|M3 Nut|6|
+21|M4 Nut|30|
 22|Paper Clip|3|
 23|L-shaped Stand|2|
 24|Screwdriver|1|
