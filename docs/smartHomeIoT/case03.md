@@ -60,26 +60,29 @@ Use M4 screws and nuts to install the motor module on the opposite Wall<BR><P>
 * In `Forever`, put (set temperature to `DHT11 Read temperature at pin p0`)
 * Before update the screen infomation, suggest clear up the OLED display each time
 * Use `clear OLED display` to clear the display
-* Then use `show number temperature` to show the temperature value on display
+* Then use `show string join Temp: temperature` to show the temperature value with formatted text on display
 ![pic_90](images/Case3/Case3_p3.png)<P>
 
 <span id="subtitle">Step 4. Examine the temperature</span><P>
-* In `Forever`, put a `if-else` statement
-* Use the `temperature >= 24` as condition
-* In the `if` segment, turn on the fan by `Set Motor fan with speed 1023 at P1`
-* In the `else` segment, turn off the fan by `Set Motor fan with speed 0 at P1`
+* In `Forever`, put a nested `if-else` statement
+* Use the `temperature < 22` as first condition
+* In the first `if` segment, turn off the fan by `Set Motor fan with speed 0 at P1`
+* Use the `temperature < 26` as second condition
+* In the second `if` segment, turn on the fan with half speed by `Set Motor fan with speed 600 at P1`
+* Use the `temperature >= 26` as third condition
+* In the third `if` segment, turn on the fan with full speed by `Set Motor fan with speed 1023 at P1`
 ![pic_90](images/Case3/Case3_p4.png)<P>
 
 <span id="subtitle">Full Solution<BR><P>
-MakeCode: [https://makecode.microbit.org/_d0VLr5bkUY7T](https://makecode.microbit.org/_d0VLr5bkUY7T)<BR><P>
+MakeCode: [https://makecode.microbit.org/_2fMJtCPdCP6L](https://makecode.microbit.org/_2fMJtCPdCP6L)<BR><P>
 You could also download the program from the following website:<BR>
-<iframe src="https://makecode.microbit.org/#pub:_d0VLr5bkUY7T" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="https://makecode.microbit.org/#pub:_2fMJtCPdCP6L" width="100%" height="500" frameborder="0"></iframe>
 
 
 ## Result
 <HR>
 
-When the room temperature increases to above the preset value, it will trigger the condition and turn on the fans, after temperature gets back to normal value, the fan will turn off.<BR><P>
+When the room temperature changing, it will match either one of the condition, and the fans will turn on or off with different speed according to the room temperature.<BR><P>
 ![pic](images/Case3/Case3_result.png)<P>
 
 ## Think

@@ -1,1 +1,2 @@
-# Case 06: Toilet Water leakage system
+# Case 06: Toilet water leakage detection system
+
