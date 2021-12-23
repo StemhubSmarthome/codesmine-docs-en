@@ -82,12 +82,16 @@ Load the program to the micro:bit and turn on the IoT:bit by using USB<BR><P>.
 Wi-Fi IoT:bit will start to connect to internet, when the connection is successful, the IP Address would be shown. AND the tick icon will be shown.<BR><P>
 ![auto_fit](images/4_ConnectWiFi/Wifi_result2.png)<P>
 
-After the IoT:bit is connected to the wifi, when disconnect to the router. It will show “cross” symbol and the error code will be shown. Normally, the code `201` means “No AP Found”. <BR>Some reasons might cause unable to connect or disconnect:
+After the IoT:bit is connected to the wifi, when disconnect to the router. It will show “cross” symbol and the error code will be shown. Normally, the code `201` means “No AP Found”. <BR>
+
+## Reasons might cause unable to connect or disconnect:
 1. Router is too far away
 2. No that AP actually 
 3. The typo on SSID/PWD
 4. The battery have run out, please change to new battery
 5. Not using 2.4Ghz frequency Wi-Fi channel
+6. Follow the [best practice](https://smarthon-docs-en.readthedocs.io/en/latest/smartcity/2_IOTbit.html#best-practice) on using the iot:bit
+
 
 You may get more detailed information on error codes from [NodeMCU Documentation](https://nodemcu.readthedocs.io/en/dev-esp32/modules/wifi/)
 ![auto_fit](images/4_ConnectWiFi/Wifi_result3.png)<P>

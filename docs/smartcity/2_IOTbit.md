@@ -328,3 +328,10 @@ Method 3:<P>
 >![auto_fit](images/2_IOT/iot_li_battery.gif)<P>
 
 >*18650 battery holder and the battery are not included in the kit set
+
+## Best Practice
+
+1. Load the program into the micro:bit (Micro:bit not connected to iot:bit)
+2. Take the USB out from micro:bit
+3. Insert the micro:bit to iot:bit
+4. Switch on the iot:bit
