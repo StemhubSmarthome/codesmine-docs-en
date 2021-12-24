@@ -1,1 +1,1 @@
-# IoT Case 09: Kitchen Safety Flame monitoring alert
+# IoT Case 09: Smart Digital Morning Clock

@@ -1,1 +1,1 @@
-# IoT Case 11: Alexa voice control Fan
+# IoT Case 11: Kitchen Safety Flame Monitoring Alert

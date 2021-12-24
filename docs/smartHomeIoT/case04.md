@@ -1,95 +1,88 @@
-# Case 04: Mechanical Password Switch Door
+# Case 04: Toilet water leakage detection system
 
 Level: ![level](images/level2.png)
 ![auto_fit](images/Case4/blank.png)<P>
 
 ## Goal
 <HR>
-Make a mechanical door that open upon button pressed and correct password input<BR><P>
+
+Make a toilet water leakage detection system by checking the conductivity of device connected.<BR><P>
 
 ## Background
 <HR>
 
-<span id="subtitle">What is a mechanical password switch door?</span><P>
-Mechanical password switch door is a door that can open automatically to respond to some specific commands, in this case on a button pressed and password input correctly. Deploying it at home can assist users when they are carrying things, or to save time.<BR><P>
+<span id="subtitle">What is a toilet water leakage detection system?</span><P>
+Toilet water leakage detection system is a system that can trigger alert upon unwanted water leakage situations.<BR><P>
 
-![pic_70](images/Case4/blank.png)<P>
+<span id="subtitle">What is an Electrical circuit?</span><P>
+Electrical Circuit is one of basic concepts in electronic engineering, when something can let electric current pass through, it builds up a circuit.<P>
+Generally, a circuit will have two states, if the circuit is complete, able to let the current pass, it is called closed circuit. If the circuit has a breakpoint, and cannot let the current pass, it becomes an open circuit.<p>
+However, how to let the current pass through? It is related to the material of the circuit. All the materials have their own physical property, one of property is conductivity. If the conductivity is high enough, it is called a conductor and able to let the current pass through easier, in opposite, if the conductivity is low, it is called an insulator which will stop the current pass through.<P>
+In daily life, metal usually has a high conductivity, so the electric wires are made of copper. In addition, some ionic material such as tap water also takes the same property, able to become a conductor to build a circuit.
+<BR><P>
+
+<span id="subtitle">Toilet water leakage detection system principle</span><P>
+
+The system will consist of two crocodile clips each with one side connected to the board, one installed to the place of detection, with two clips physically disconnected. Air is an excellent insulator, so the circuit will become open circuit.  When water is leaked around that area, the water will replace the air between two clips, thus becoming a closed circuit, electricity will flow between the Board's detection Pin and ground Pin. It will trigger the detection to make the water leakage be detected and the system will send an alert.
+<BR><P>
+
+![pic_70](images/Case4/Blank.png)<P>
 
 
 ## Part List
 <HR>
 
-![pic](images/Case4/blank.png)<P>
+![pic](images/Case4/Blank.png)<P>
 
 ## Assembly step
 <HR>
 
 <span id="subtitle">Step 1</span><P>
-Use M4 screws and nuts to install the button on the wall<BR><P>
+Connect the crocodile clip to P1 and GND.<BR><P>
 ![pic](images/Case4/Case4_ass1.png)<P>
 <span id="subtitle">Step 2</span><P>
-Install the servo on the ground and connect to the door by hook 
-<BR><P>
+Put the clip to the level which need to detect water<BR><P>
 ![pic](images/Case4/Case4_ass2.png)<P>
 
 ## Hardware connect
 <HR>
 
-1. Connect the button module to P0
-2. Connect the 180 degree servo to P1
-3. Pull up the buzzer switch to disconnect from buzzer
+1. Connect the two crocodile clip cables to P1 and GND
+2. Put the two clip at the detection level on sink
+3. Pull down the buzzer switch to connect the buzzer
+
 
 ![pic](images/Case4/Case4_hardware.png)<P>
 
 ## Programming (MakeCode)
 <HR>
 
-<span id="subtitle">Step 1. Create variable and initialize the servo</span><P>
-* Create a variable called `count_A`, `count_B`, `door_open`
+<span id="subtitle">Step 1</span><P>
+<span id="subtitle">Step 1. Check the Pin state</span>
+* In `Forever`, put a `if` statement
+* Put `pin P1 is pressed = true` as condition
 ![auto_fit](images/Case4/Case4_p1.png)<P>
-* In `on Start`, initialize the state of door to closed by `set door_open to false` and `Turn 180 Servo to 45 degree at P1`, also set the count variable `count_A` and `count_B` to `0`
+
+<span id="subtitle">Step 2. Alert warning</span><P>
+* If in `if` segment, that's means the water was connected two clips
+* Use `play tone High A for 2 beat` to play warning sound
 ![auto_fit](images/Case4/Case4_p2.png)<P>
 
-<span id="subtitle">Step 2. Monitoring the button pressing state and take action</span><P>
-* Snap the `When Button at P0 pressed` block to editor
-* Put a `if-else` statement in the `When Button at P0 pressed` block
-* Set the condition to `door_open = true`
-* In the `if` segment, that's mean the door should open, control the servo to open the door by `Turn 180 servo to 180 degree at P1`, after that, reset the variable `door_open` to `false` for close the door later
-* In the `else` segment, that's mean the door should close, control the servo close the door by `Turn 180 servo to 45 degree at P1`
-![auto_fit](images/Case4/Case4_p3.png)<P>
-
-<span id="subtitle">Step 3. password input method</span><P>
-* Snap `on button A pressed` to editor
-* Use `change count_A by 1` to increase the count variable by 1
-* Repeat the step with minor different on target to let button B also can increase `count_B`
-![auto_fit](images/Case4/Case4_p4.png)<P>
-
-<span id="subtitle">Step 4. Examine the password</span><P>
-* Snap `on button A+B pressed` to editor
-* Put a `if-else` statement inside
-* Use `count_A = 2 and count_B = 3` as condition, you may also change it to your favourite password
-* In the `if` segment, that's means the input is correct, `show icon tick`, and `set door_open to true` to allow open the door when press the extended button
-* In the `else` segment, that's means the input is not correct, `show icon cross`, and `set door_open to false` to denied open the door when press the extended button
-* Reset the two count variable `count_A` and `count_B` to `0` for next input
-
-![auto_fit](images/Case4/Case4_p5.png)<P>
 
 <span id="subtitle">Full Solution<BR><P>
-MakeCode: [https://makecode.microbit.org/_4ocgihEmh6CF](https://makecode.microbit.org/_4ocgihEmh6CF)<BR><P>
+MakeCode: [https://makecode.microbit.org/_bPw0ViLrR6Jm](https://makecode.microbit.org/_bPw0ViLrR6Jm)<BR><P>
 You could also download the program from the following website:<BR>
-<iframe src="https://makecode.microbit.org/#pub:_4ocgihEmh6CF" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="https://makecode.microbit.org/#pub:_bPw0ViLrR6Jm" width="100%" height="500" frameborder="0"></iframe>
 
 
 ## Results
 <HR>
 
-After pressing the correct number of button A and B, press A+B to do the validation.<BR>If it is the correct password, press the extended button, the door will open. Press again, the door will close.<BR><P>
+When the water level rises to the crocodile clip’s position, the warning sound is triggered to warn the user.<BR><P>
 ![pic](images/Case4/Case4_result.png)<P>
 
 ## Think
 <HR>
 
-Apart from using a physical button, are there better ways of controlling the open and close of the door?
+Q1. Apart from the warning by buzzer, any other method can be used to notify the house owner? i.e. showing red LED<BR><P>
 
-1. Can it make a doorbell to produce sound when the door is opening?
-2. Other than the door, can the switch apply to other usage? (e.g control LED)

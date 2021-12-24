@@ -19,3 +19,5 @@ Smarthon Smart Home IoT Starter Kit
     case09.md
     case10.md
     case11.md
+    case12.md
+    case13.md

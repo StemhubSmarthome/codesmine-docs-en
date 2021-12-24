@@ -1,1 +1,1 @@
-# IoT Case 08: Home health data monitoring
+# Case 08: Automatic Sunlight Detecting Curtain
