@@ -1,4 +1,4 @@
-# Case 04: Toilet water leakage detection system
+# Case 04: Toilet Water Leakage Detection System
 
 Level: ![level](images/level2.png)
 ![auto_fit](images/Case4/blank.png)<P>

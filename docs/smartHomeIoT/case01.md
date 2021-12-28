@@ -1,4 +1,4 @@
-# Case 01: Smart Saving light bulb
+# Case 01: Smart Saving Light Bulb
 
 Level: ![level](images/level1.png)
 ![auto_fit](images/Case1/intro.png)<P>
@@ -6,15 +6,15 @@ Level: ![level](images/level1.png)
 
 ## Goal
 <HR>
-Make a smart light bulb by detecting motion around the environment.<P>
+Make a smart saving light bulb by detecting motion around the environment.<P>
 
 ## Background
 <HR>
-<span id="subtitle">What is a smart light bulb?</span><P>
+<span id="subtitle">What is a Smart Saving Light Bulb?</span><P>
 
-Smart light bulb is a light bulb that turns on and off automatically depending on the presence of people around the environment. Deploying it in home toilets can help save electricity. When no one is inside the toilet the bulb will automatically turn off.<P>
+Smart saving light bulb is a light bulb that turns on and off automatically depending on the presence of people around the environment. Deploying it in home toilets can help save electricity. When no one is inside the toilet the bulb will automatically turn off.<P>
 
-<span id="subtitle">Smart light bulb operation</span><P>
+<span id="subtitle">Smart Saving Light Bulb operation</span><P>
 
 Motion sensor is used to detect the presence of human activity in the room. If there are people moving in the room, the light bulb will turn on, vice versa.<BR>
 

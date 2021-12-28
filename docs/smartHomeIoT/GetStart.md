@@ -1,4 +1,4 @@
-# Getting started: Add the extension
+# Getting started: Add the Extension
 
 <HR>
 
@@ -15,5 +15,5 @@ Click "![icon](images/GetStart/icon_more.png)" and choose "Extensions" in the pu
 Search "[https://github.com/smarthon/pxt-smarthome](https://github.com/smarthon/pxt-smarthome)" and click “smarthome”
 ![auto_fit](images/GetStart/getstart04.png)<P>
 <span id="subtitle">Step 5</span><BR><P>
-Extension `SmartHome` & `WiFi IoT:bit` package has been added successfully.<BR><P>
-![auto_fit](images/Getstart/getstart05.png)<P>
+Extension `SmartHome` & `IoT:bit` package has been added successfully.<BR><P>
+![auto_fit](images/GetStart/getstart05.png)<P>

@@ -11,7 +11,8 @@ Make a mechanical door that open upon button pressed and correct password input<
 <HR>
 
 <span id="subtitle">What is a mechanical password switch door?</span><P>
-Mechanical password switch door is a door that can open automatically to respond to some specific commands, in this case on a button pressed and password input correctly. Deploying it at home can assist users when they are carrying things, or to save time.<BR><P>
+Nowadays, digital locks are common, apart from preventing theft going in, it also provides convenience, for example, no need to bring the physical key, just use the password or Biometric information, the door can auto open or close without pushing or pulling it. In this case, it will demonstrate the use of the basic switches and micro:bit to perform a mechanical password switch door.
+<BR><P>
 
 ![pic_70](images/Case6/blank.png)<P>
 
