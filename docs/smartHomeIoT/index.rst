@@ -1,4 +1,4 @@
-Smarthon Smart Home IoT Starter Kit
+Smarthon Smart Home IoT Maker Kit
 ======================================
 
 

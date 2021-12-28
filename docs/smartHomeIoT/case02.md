@@ -79,7 +79,7 @@ You could also download the program from the following website:<BR>
 <HR>
 
  When someone is get close to the door, either distance sensor or motion sensor will detect it and warn alert to house owner.
-![auto_fit](images/Case2/Case2_result.png)<P>
+![auto_fit](images/Case2/Case2_result.gif)<P>
 
 ## Think
 <HR>
