@@ -22,7 +22,7 @@ The temperature and humidity sensor installed in the house will scan for surroun
 ## Part List
 <HR>
 
-![pic](images/Case3/Case3_parts.png)<P>
+![pic_80](images/Case3/Case3_parts.png)<P>
 
 ## Assembly step
 <HR>

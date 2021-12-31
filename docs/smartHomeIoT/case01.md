@@ -21,7 +21,7 @@ Motion sensor is used to detect the presence of human activity in the room. If t
 ## Part List
 <HR>
 
-![auto_fit](images/Case1/Case1_parts.png)<P>
+![pic_80](images/Case1/Case1_parts.png)<P>
 
 
 ## Assembly step
