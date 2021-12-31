@@ -33,6 +33,14 @@ Use M4 screw to Install the motion sensor on wall.<BR><P>
 <span id="subtitle">Step 2</span><BR><P>
 Use M4 screw to install the multi-color LED on wall.<BR><P>
 ![pic_40](images/Case1/Case1_ass2.png)<P>
+<span id="subtitle">Step 3</span><BR><P>
+Build the bed<BR><P>
+![pic_40](images/Case1/Case1_ass3.png)<P>
+<span id="subtitle">Step 4</span><BR><P>
+Place in the bedroom.<BR><P>
+![pic_40](images/Case1/Case1_ass4.png)<P>
+
+
 
 
 ## Hardware connect
