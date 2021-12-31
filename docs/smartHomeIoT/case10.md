@@ -91,27 +91,33 @@ Insert the C4 cardboard on A cardboard, align with holes at A and B2<BR><P>
 
 ![auto_fit](images/Case10/Case10_p7.png)<P>
 
-<span id="subtitle">Step 4. Create two warning function</span><BR><P>
-* Create a function called `warning_dry`
-* Show string `Humidity is too low!` 
-* play the warning sound by `play melody xxx at tempo 500 bpm`
-* Create another function called `warning_hot`
-* Repeat again the steps.
+<span id="subtitle">Step 4. Read and show the data</span><BR><P>
+* In `Forever`, put `set humd to DHT11 Read humidity at pin P2` to read humidity
+* Put `set temp to DHT11 Read temperature at pin P2` to read temperature
+* add up the counter by `change counter by 1`
+* Clear the display before each update by `clear OLED display`
+* Show the temperature with formatted text by `show string join Temperature: temp C`
+* Show the humidity with formatted text by `show string join humidity: humd %`
+* ![auto_fit](images/Case10/Case10_p8.png)<P>
 
-![auto_fit](images/Case10/Case10_p7.png)<P>
+<span id="subtitle">Step 5. Examine and send the data</span><BR><P>
+* Add a `if` statement with condition `counter >= 15`
+* Put `call send to Thingspeak` function to start the upload process
+* Add a `if` statement with condition `temp > 28`
+* Put `call warning_hot` function to play the alert sound
+* Add a `if statement` with condition `humd <= 50`
+* Put `call warning_dry` function to play the alert sound
+* Add `pause(ms) 1000` to read and check data for each second
 
+![auto_fit](images/Case10/Case10_p9.png)<P>
 
 
 <span id="subtitle">Full Solution<BR><P>
-<<<<<<< HEAD
-MakeCode: [https://makecode.microbit.org/_6DuRvwD5PYpU](https://makecode.microbit.org/_6DuRvwD5PYpU)<BR><P>
+
+MakeCode: [https://makecode.microbit.org/_01h9FpcbVicW](https://makecode.microbit.org/_01h9FpcbVicW)<BR><P>
 You could also download the program from the following website:<BR>
-<iframe src="https://makecode.microbit.org/#pub:_6DuRvwD5PYpU" width="100%" height="500" frameborder="0"></iframe>
-=======
-MakeCode: [https://makecode.microbit.org/_2cRf6LWq69AL](https://makecode.microbit.org/_2cRf6LWq69AL)<BR><P>
-You could also download the program from the following website:<BR>
-<iframe src="https://makecode.microbit.org/#pub:_2cRf6LWq69AL" width="100%" height="500" frameborder="0"></iframe>
->>>>>>> f16ca1229b020beb4e91d7e16791193a6cb0c679
+<iframe src="https://makecode.microbit.org/#pub:_01h9FpcbVicW" width="100%" height="500" frameborder="0"></iframe>
+
 
 
 
@@ -119,11 +125,14 @@ You could also download the program from the following website:<BR>
 ## Result
 <HR>
 
-The micro:bit is controlled by IFTTT (trigger by date&time). The LED light will be turned on at 6pm and turned off at 6am every day.<BR><P>
-![auto_fit](images/Case10/blank.png)<P>
+After turn on, sensors will start collecting temperature and humidity data for each second. <BR>For every 15 times data collection, it will upload to Thingspeak.<BR>
+When the temperature or humidity value is over the range, it will trigger the warning alert.
+<P>
+
+![auto_fit](images/Case10/Case10_result.png)<P>
 
 
 ## Think
 <HR>
 
-Q1. How to turn on the light automatically if the today’s weather is cloudy reported by IFTTT.
+Q1. How to make use of the data to analyst the home environment? (for example, checking the time period that mostly trigger alert?)

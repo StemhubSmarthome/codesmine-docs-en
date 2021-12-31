@@ -1,7 +1,7 @@
 # Case 03: Environmental Motor Fan
 
 Level: ![level](images/level2.png)
-![auto_fit](images/Case3/blank.png)<P>
+![auto_fit](images/Case3/intro.png)<P>
 
 
 ## Goal
@@ -22,19 +22,35 @@ The temperature and humidity sensor installed in the house will scan for surroun
 ## Part List
 <HR>
 
-![pic](images/Case3/blank.png)<P>
+![pic](images/Case3/Case3_parts.png)<P>
 
 ## Assembly step
 <HR>
 
 <span id="subtitle">Step1</span><P>
-Use M4 screws and nuts to install the Temperature and Humidity sensor (DHT11) on the Wall<BR><P>
-Use M4 screws and nuts to install the OLED display on the Wall<BR><P>
-![pic](images/Case3/Case3_ass1.png)<P>
+Use M4 screws to install the Temperature and humidity sensor (DHT11) and use M2 screws to install OLED display to E4 cardboard<BR><P>
+![pic_70](images/Case3/Case3_ass1.png)<P>
 <span id="subtitle">Step 2</span><P>
-Use M4 screws and nuts to install the motor module on the opposite Wall<BR><P>
+Use M4 screws to install motor module to F cardboard
+<BR><P>
 ![pic](images/Case3/Case3_ass2.png)<P>
+<span id="subtitle">Step 3</span><P>
+Insert E4 cardboard to A and B3 cardboard to build a wall
+<BR><P>
+![pic](images/Case3/Case3_ass3.png)<P>
+<span id="subtitle">Step 4</span><P>
+Insert F cardboard to B2 and B3 cardboard to build a fans stand
+<BR><P>
+![pic](images/Case3/Case3_ass4.png)<P>
 
+<H3>Optional:</H3><P><HR>
+
+<span id="subtitle">Step 5</span><P>
+Build a table with I cardboard<BR><P>
+![pic](images/Case3/Case3_ass5.png)<P>
+<span id="subtitle">Step 6</span><P>
+Place at the room corner<BR><P>
+![pic](images/Case3/Case3_ass6.png)<P>
 ## Hardware connect
 <HR>
 
@@ -54,13 +70,13 @@ Use M4 screws and nuts to install the motor module on the opposite Wall<BR><P>
 
 <span id="subtitle">Step 2. Create variable</span><P>
 * Create a variable called `temperature`
-![pic_90](images/Case3/Case3_p2.png)<P>
+![pic_70](images/Case3/Case3_p2.png)<P>
 
 <span id="subtitle">Step 3. Read and show the reading from DHT11</span><P>
 * In `Forever`, put (set temperature to `DHT11 Read temperature at pin p0`)
 * Before update the screen infomation, suggest clear up the OLED display each time
 * Use `clear OLED display` to clear the display
-* Then use `show string join Temp: temperature` to show the temperature value with formatted text on display
+* Then use `show string join Temperature: temperature` to show the temperature value with formatted text on display
 ![pic_90](images/Case3/Case3_p3.png)<P>
 
 <span id="subtitle">Step 4. Examine the temperature</span><P>

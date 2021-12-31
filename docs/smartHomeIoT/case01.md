@@ -21,24 +21,27 @@ Motion sensor is used to detect the presence of human activity in the room. If t
 ## Part List
 <HR>
 
-![auto_fit](images/Case1/blank.png)<P>
+![auto_fit](images/Case1/Case1_parts.png)<P>
 
 
 ## Assembly step
 <HR>
 
 <span id="subtitle">Step 1</span><BR><P>
-Use M4 screw to Install the motion sensor on wall.<BR><P>
+ Pick one corner of the house. In this example, we pick the left upper corner, install the 2 walls (E1 & E2) to build a small room.<BR><P>
 ![auto_fit](images/Case1/Case1_ass1.png)<P>
 <span id="subtitle">Step 2</span><BR><P>
-Use M4 screw to install the multi-color LED on wall.<BR><P>
-![pic_40](images/Case1/Case1_ass2.png)<P>
+Use M4 screw to Install the motion sensor on wall<BR><P>
+![auto_fit](images/Case1/Case1_ass2.png)<P>
 <span id="subtitle">Step 3</span><BR><P>
-Build the bed<BR><P>
-![pic_40](images/Case1/Case1_ass3.png)<P>
+Use M4 screw to install the multi-color LED on wall<BR><P>
+![auto_fit](images/Case1/Case1_ass3.png)<P>
 <span id="subtitle">Step 4</span><BR><P>
-Place in the bedroom.<BR><P>
-![pic_40](images/Case1/Case1_ass4.png)<P>
+Build the bed with J1,J2,J3,J4 cardboard<BR><P>
+![pic_70](images/Case1/Case1_ass4.png)<P>
+<span id="subtitle">Step 5</span><BR><P>
+Place the bed in the bedroom<BR><P>
+![pic_70](images/Case1/Case1_ass5.png)<P>
 
 
 
@@ -91,3 +94,4 @@ When the people are moving in the room, the motion sensor will trigger and keep 
 Q1. Besides implementing the smart light bulb into the toilet, where other places can the light bulb also be implemented? Discuss the place and briefly explain the point on energy reservation.<BR><P>
 Q2. Suggest addition of any component that allows the light bulb to be even smarter.
 <BR><P>
+Q3. Can you add the timer in the program to make it only turn off after 10min of no activity? <BR><P>
