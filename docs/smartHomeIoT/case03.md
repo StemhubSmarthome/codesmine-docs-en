@@ -74,9 +74,9 @@ Use M4 screws and nuts to install the motor module on the opposite Wall<BR><P>
 ![pic_90](images/Case3/Case3_p4.png)<P>
 
 <span id="subtitle">Full Solution<BR><P>
-MakeCode: [https://makecode.microbit.org/_2fMJtCPdCP6L](https://makecode.microbit.org/_2fMJtCPdCP6L)<BR><P>
+MakeCode: [https://makecode.microbit.org/_J9tMLeYahD6j](https://makecode.microbit.org/_J9tMLeYahD6j)<BR><P>
 You could also download the program from the following website:<BR>
-<iframe src="https://makecode.microbit.org/#pub:_2fMJtCPdCP6L" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="https://makecode.microbit.org/#pub:_J9tMLeYahD6j" width="100%" height="500" frameborder="0"></iframe>
 
 
 ## Result
