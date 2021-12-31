@@ -83,7 +83,7 @@ You could also download the program from the following website:<BR>
 <HR>
 
 When the room temperature changing, it will match either one of the condition, and the fans will turn on or off with different speed according to the room temperature.<BR><P>
-![pic](images/Case3/Case3_result.png)<P>
+![pic](images/Case3/Case3_result.gif)<P>
 
 ## Think
 <HR>
