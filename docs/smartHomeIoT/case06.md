@@ -1,7 +1,7 @@
 # Case 06: Mechanical Password Switch Door
 
 Level: ![level](images/level2.png)
-![auto_fit](images/Case6/blank.png)<P>
+![auto_fit](images/Case6/intro.png)<P>
 
 ## Goal
 <HR>
@@ -14,13 +14,13 @@ Make a mechanical door that open upon button pressed and correct password input<
 Nowadays, digital locks are common, apart from preventing theft going in, it also provides convenience, for example, no need to bring the physical key, just use the password or Biometric information, the door can auto open or close without pushing or pulling it. In this case, it will demonstrate the use of the basic switches and micro:bit to perform a mechanical password switch door.
 <BR><P>
 
-![pic_70](images/Case6/blank.png)<P>
+
 
 
 ## Part List
 <HR>
 
-![pic](images/Case6/blank.png)<P>
+![pic](images/Case6/Case6_parts.png)<P>
 
 ## Assembly step
 <HR>

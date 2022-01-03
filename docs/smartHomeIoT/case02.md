@@ -17,7 +17,6 @@ Security vanguard alarm system is a smart defence system that triggers an alert 
 <span id="subtitle">Vanguard working principle</span><P>
 Motion sensor and distance sensor is implemented over the house and monitor the surrounding environment to check if there are visitors. If there are moving objects nearby, the sensors will reflect data to the system and trigger the buzzer, until the objects move away.<BR><P>
 
-![pic_70](images/Case2/blank.png)<P>
 
 
 ## Part List

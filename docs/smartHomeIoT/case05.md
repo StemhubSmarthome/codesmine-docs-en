@@ -1,7 +1,7 @@
 # Case 05: Smart Fridge Alert
 
 Level: ![level](images/level3.png)
-![auto_fit](images/Case5/Blank.png)<P>
+![auto_fit](images/Case5/intro.png)<P>
 
 ## Goal
 <HR>

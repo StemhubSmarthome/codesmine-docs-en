@@ -1,34 +1,53 @@
-# Case 07: Relaxing Enjoyable Musical Living Room
+# Case 07: Smart Remote Control Musical Light
 
 Level: ![level](images/level2.png)
-![auto_fit](images/Case7/blank.png)<P>
+![auto_fit](images/Case7/intro.png)<P>
 
 ## Goal
 <HR>
 
-Create a group of micro:bit and remote to play music and change light color.<BR><P>
+Create a remote control to control the living room's musical light<BR><P>
 
 ## Background
 <HR>
 
-<span id="subtitle">What is the Relaxing Enjoyable Musical Living Room?</span><P>
-Relaxing Enjoyable Musical Living Room aims to give a better mood when people stay inside the room. When they press the control button, the corresponding music and light effect will occur to provide suitable ambience.<BR><P>
+<span id="subtitle">What is the Smart Remote Control Musical Light?
+</span><P>
+Nowadays, different electronic furniture can also be controlled remotely. In this case, it illustrates the concept of remote control in Smart Home. In this case, the person can control the atmosphere mode (The changing of music with light) in the living room. 
+<BR><P>
 
-<span id="subtitle">Musical Living Room Principle </span><P>
-Micro:bit includes the radio function, allowing two or more Micro:bit to form a group and communicate in a small area. <BR>
-When one of the Micro:bit receives the message from the other Micro:bit, it will use the buzzer to play a different tone or music, at the same time, the multi-color LED can be changed to have better ambience.
+<span id="subtitle">Smart Remote Control Musical Light Principle 
+</span><P>
+Micro:bit includes the radio function, allowing two or more Micro:bit to form a group and communicate in a small area. <BR>When one of the Micro:bit receives the message from the other Micro:bit, it will use the buzzer to play a different tone or music, at the same time, the multi-color LED can be changed to have better ambience. There are 2 modes, one is enjoyable mode, another is exciting mode.
+
 
 ## Part List
 <HR>
 
-![auto_fit](images/Case7/blank.png)<P>
+<H3>Receiver</H3>
+
+![auto_fit](images/Case7/Case7_parts_1.png)<P>
+
+<H3>Sender</H3>
+
+![auto_fit](images/Case7/Case7_parts_2.png)<P>
 
 ## Assembly step
 <HR>
 
 <span id="subtitle">Step 1</span><P>
-Use M4 screws and nuts to install the Multi-Color LED to the house wall<BR><P>
+Use M4 screws to install the Multi-Color LED to B3 cardboard<BR><P>
 ![auto_fit](images/Case7/Case7_ass1.png)<P>
+
+<H3>Optional</H3>
+
+<span id="subtitle">Step 2</span><P>
+Build a sofa model with ?? cardboards<BR><P>
+![auto_fit](images/Case7/Case7_ass2.png)<P>
+
+<span id="subtitle">Step 3</span><P>
+Place the sofa at the room<BR><P>
+![auto_fit](images/Case7/Case7_ass3.png)<P>
 
 ## Hardware connect
 <HR>

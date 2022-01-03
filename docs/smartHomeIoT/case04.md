@@ -1,7 +1,7 @@
 # Case 04: Toilet Water Leakage Detection System
 
 Level: ![level](images/level2.png)
-![auto_fit](images/Case4/blank.png)<P>
+![auto_fit](images/Case4/intro.png)<P>
 
 ## Goal
 <HR>
@@ -26,13 +26,12 @@ In daily life, metal usually has a high conductivity, so the electric wires are 
 The system will consist of two crocodile clips each with one side connected to the board, one installed to the place of detection, with two clips physically disconnected. Air is an excellent insulator, so the circuit will become open circuit.  When water is leaked around that area, the water will replace the air between two clips, thus becoming a closed circuit, electricity will flow between the Board's detection Pin and ground Pin. It will trigger the detection to make the water leakage be detected and the system will send an alert.
 <BR><P>
 
-![pic_70](images/Case4/Blank.png)<P>
 
 
 ## Part List
 <HR>
 
-![pic](images/Case4/Blank.png)<P>
+![auto_fit](images/Case4/Case4_parts.png)<P>
 
 ## Assembly step
 <HR>
@@ -79,7 +78,7 @@ You could also download the program from the following website:<BR>
 <HR>
 
 When the water level rises to the crocodile clip’s position, the warning sound is triggered to warn the user.<BR><P>
-![pic](images/Case4/Case4_result.png)<P>
+![pic](images/Case4/Case4_result.gif)<P>
 
 ## Think
 <HR>

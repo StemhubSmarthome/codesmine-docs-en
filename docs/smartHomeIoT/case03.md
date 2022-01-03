@@ -17,12 +17,12 @@ Smart motor fan is a fan that can adjust the power, turn on and off automaticall
 
 <span id="subtitle">Environmental motor fan principle</span><P>
 The temperature and humidity sensor installed in the house will scan for surrounding conditions continuously. When the temperature is too low or at average, the fan will change the intensity to off or low. When the temperature is high the fan will adjust to max power.<BR><P>
-![pic_70](images/Case3/blank.png)<P>
+
 
 ## Part List
 <HR>
 
-![pic_80](images/Case3/Case3_parts.png)<P>
+![auto_fit](images/Case3/Case3_parts.png)<P>
 
 ## Assembly step
 <HR>

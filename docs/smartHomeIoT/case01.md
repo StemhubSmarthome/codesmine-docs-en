@@ -21,7 +21,7 @@ Motion sensor is used to detect the presence of human activity in the room. If t
 ## Part List
 <HR>
 
-![pic_80](images/Case1/Case1_parts.png)<P>
+![auto_fit](images/Case1/Case1_parts.png)<P>
 
 
 ## Assembly step
@@ -69,16 +69,16 @@ Place the bed in the bedroom<BR><P>
 * In `Forever`, add a `if-else` statement
 * Set (`Get motion (triggered or not) at Pin P0` = `true`) as condition
 * Snap `strip show color white` into the `if` segment
-* Snap `pause(ms) 2000` into `if` segment to keep light up for 2 second
+* Snap `pause(ms) 10000` into `if` segment to keep light up for 10 second
 * Snap `strip show color black` into the `else` segment
 * When the condition is correct, that’s say motion is triggered, someone passes by.<BR>The program will run the `if` segment to turn on the light
 * Otherwise, the program will run the `else` segment to turn off the light
 ![pic_90](images/Case1/Case1_p2.png)<P>
 
 <span id="subtitle">Full Solution<BR><P>
-MakeCode: [https://makecode.microbit.org/_hECbKo7rofEM](https://makecode.microbit.org/_hECbKo7rofEM)<BR><P>
+MakeCode: [https://makecode.microbit.org/_MopaifFb42v5](https://makecode.microbit.org/_MopaifFb42v5)<BR><P>
 You could also download the program from the following website:<BR>
-<iframe src="https://makecode.microbit.org/#pub:_hECbKo7rofEM" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="https://makecode.microbit.org/#pub:_MopaifFb42v5" width="100%" height="500" frameborder="0"></iframe>
 
 <P>
 
@@ -86,7 +86,7 @@ You could also download the program from the following website:<BR>
 <HR>
 
 When the people are moving in the room, the motion sensor will trigger and keep the LED turned on. When there is no one moving, the LED will turn off.<BR><P>
-![auto_fit](images/Case1/Case1_result.png)<P>
+![auto_fit](images/Case1/Case1_result.gif)<P>
 
 ## Think
 <HR> 
