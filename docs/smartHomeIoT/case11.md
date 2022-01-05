@@ -37,22 +37,33 @@ Stick the paper that drawing your favorite cooking stove look<BR><P>
 
 <span id="subtitle">Step 3</span><BR><P>
 Use M4 screws and nuts to install the flame sensor to B3 cardboard<BR><P>
-![pic_80](images/Case11/Case11_ass3.png)<P>
+
+![pic_80](images/Case11/case11_ass3.png)<P>
+
 <span id="subtitle">Step 4</span><BR><P>
 Use M4 screws and nuts to install the multi-color LED to B3 cardboard<BR><P>
-![pic_80](images/Case11/Case11_ass4.png)<P>
+
+![pic_80](images/Case11/case11_ass4.png)<P>
+
 <span id="subtitle">Step 5</span><BR><P>
 Insert the E3 cardboard on A cardboard, align with holes at A and B2 cardboard<BR><P>
-![pic_80](images/Case11/Case11_ass5.png)<P>
+
+![pic_80](images/Case11/case11_ass5.png)<P>
+
 <span id="subtitle">Step 6</span><BR><P>
 Insert the E2 cardboard on A cardboard, align with holes at A and B2 cardboard<BR><P>
-![pic_80](images/Case11/Case11_ass6.png)<P>
+
+![pic_80](images/Case11/case11_ass6.png)<P>
+
 <span id="subtitle">Step 7</span><BR><P>
 Place the cooking stove model to correct place<BR><P>
-![pic_80](images/Case11/Case11_ass7.png)<P>
+
+![pic_80](images/Case11/case11_ass7.png)<P>
+
 <span id="subtitle">Step 8 (Optional)</span><BR><P>
 Place the fridge model to correct place  <BR><P>
-![pic_80](images/Case11/Case11_ass8.png)<P>
+
+![pic_80](images/Case11/case11_ass8.png)<P>
 
 
 
