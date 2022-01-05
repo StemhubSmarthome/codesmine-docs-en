@@ -28,8 +28,8 @@ In this scenario, integrated temperature and humidity sensor DHT11 is used. It c
 
 <span id="subtitle">Step 1</span><BR><P>
 * Use M4 screws and nuts to install the DHT11 temperature and humidity sensor to E4 cardboard
-
 * Use M2 screws and nuts to install the OLED display to E4 cardboard
+
 ![auto_fit](images/Case10/Case10_ass1.png)<P>
 
 <span id="subtitle">Step 2</span><BR><P>
