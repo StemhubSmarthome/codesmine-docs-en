@@ -1,7 +1,7 @@
 # IoT Case 09: Smart Digital Morning Clock
 
 Level: ![level](images/level3.png)
-![auto_fit](images/Case9/blank.png)<P>
+![auto_fit](images/Case9/intro.png)<P>
 
 ## Goal
 <HR>
@@ -15,19 +15,36 @@ Make a digital clock that performs a normal clock function with auto-synchronizi
 Smart digital clock is a clock that shows time as accurate as atomic clock by connecting to the Internet.<BR><P>
 <span id="subtitle">Smart digital clock principle</span><BR><P>
 NTP protocol ensures devices synchronize their time with an accurate time provider. With connecting to the Internet the digital clock can even show the time of a performing atomic clock.<BR><P>
-![auto_fit](images/Case9/blank.png)<P>
+
 
 ## Part List
 <HR>
 
-![auto_fit](images/Case9/blank.png)<P>
+![auto_fit](images/Case9/Case9_parts.png)<P>
 
 ## Assembly step
 <HR>
-Wait for model choose
+<span id="subtitle">Step 1</span><BR><P>
+Use M2 screws and nuts to install the OLED display to E4 cardboard<BR><P>
 
-![auto_fit](images/Case9/blank.png)<P>
+![pic_70](images/Case9/Case9_ass1.png)<P>
+<span id="subtitle">Step 2</span><BR><P>
+Insert the E4 cardboard on A cardboard, align with holes at A and B3 cardboard<BR><P>
+	
+![pic_70](images/Case9/Case9_ass2.png)<P>
+<span id="subtitle">Step 3</span><BR><P>
+Insert the E3 cardboard on A cardboard, align with holes at A and B4 cardboard<BR><P>
+	
+![pic_70](images/Case9/Case9_ass3.png)<P>
+<span id="subtitle">Step 4</span><BR><P>
+Build the bed with J1,J2,J3,J4 cardboard<BR><P>
+	
+![auto_fit](images/Case9/Case9_ass4.png)<P>
 
+<span id="subtitle">Step 5</span><BR><P>
+Place the bed at the correct position<BR><P>
+	
+![pic_70](images/Case9/Case9_ass5.png)<P>
 
 ## Hardware connect
 <HR>

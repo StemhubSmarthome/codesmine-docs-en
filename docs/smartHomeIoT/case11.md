@@ -23,18 +23,37 @@ By installing a fire sensor in the area, the system will trigger an alarm and se
 ## Part List
 <HR>
 
-![auto_fit](images/Case11/blank.png)<P>
+![auto_fit](images/Case11/Case11_parts.png)<P>
  
 ## Assembly step
 <HR>
 
 <span id="subtitle">Step 1</span><BR><P>
-Install the flame sensor to the wall<BR><P>
-![auto_fit](images/Case11/Case11_ass1.png)<P>
+Insert the two L2 cardboard to L1 cardboard, then fold the L1 cardboard into box shape, aligned with the holes. <BR><P>
+![pic_80](images/Case11/Case11_ass1.png)<P>
 <span id="subtitle">Step 2</span><BR><P>
-Install the Multi-Color LED to the wall
-<BR><P>
-![auto_fit](images/Case11/Case11_ass2.png)<P>
+Stick the paper that drawing your favorite cooking stove look<BR><P>
+![pic_80](images/Case11/Case11_ass2.png)<P>
+
+<span id="subtitle">Step 3</span><BR><P>
+Use M4 screws and nuts to install the flame sensor to B3 cardboard<BR><P>
+![pic_80](images/Case11/Case11_ass3.png)<P>
+<span id="subtitle">Step 4</span><BR><P>
+Use M4 screws and nuts to install the multi-color LED to B3 cardboard<BR><P>
+![pic_80](images/Case11/Case11_ass4.png)<P>
+<span id="subtitle">Step 5</span><BR><P>
+Insert the E3 cardboard on A cardboard, align with holes at A and B2 cardboard<BR><P>
+![pic_80](images/Case11/Case11_ass5.png)<P>
+<span id="subtitle">Step 6</span><BR><P>
+Insert the E2 cardboard on A cardboard, align with holes at A and B2 cardboard<BR><P>
+![pic_80](images/Case11/Case11_ass6.png)<P>
+<span id="subtitle">Step 7</span><BR><P>
+Place the cooking stove model to correct place<BR><P>
+![pic_80](images/Case11/Case11_ass7.png)<P>
+<span id="subtitle">Step 8 (Optional)</span><BR><P>
+Place the fridge model to correct place  <BR><P>
+![pic_80](images/Case11/Case11_ass8.png)<P>
+
 
 
 ## Hardware connect
@@ -91,30 +110,26 @@ In the THEN field, search for the “email” and use it to replace the “notif
 * Snap `show icon` from `basic` to `On WiFi connected` and select icon `tick`
 ![pic_50](images/Case11/Case11_p2.png)<P>
 
-<span id="subtitle">Step 3. Check the flame sensor result and action on OLED display</span><BR><P>
-* In the `Forever`, put a `if` statement with condition `Get flame detection at Pin P2`
-* In the `if` segment, that's means fire was been detected. 
-* Clear the OLED diplay before each update by `clear OLED display`
-* show the warning message by `show string Flame detected!`
-![pic_70](images/Case11/Case11_p3.png)<P>
+<span id="subtitle">Step 3. Check the internet connection status</span><BR><P>
+* In the `Forever`, put a `if` statement with condition `WiFi connected?` to check the connection status
+![pic_50](images/Case11/Case11_p3.png)<P>
 
-<span id="subtitle">Step 4. Action on Warning LED</span><BR><P>
+<span id="subtitle">Step 4. Check the flame sensor result and action on OLED display</span><BR><P>
+* Put another `if` statement with condition `Get flame detection at Pin P2 = true` to recognize the flame 
+* Play a warning sound when the flame was detected 
+![pic_70](images/Case11/Case11_p4.png)<P>
+
+<span id="subtitle">Step 5. Action on Warning LED</span><BR><P>
 * The LED should be blinking to telling dangerous 
 * Put `strip show color red` to turn on the LED in red color
 * Add a `pause (ms) 100` to wait for 0.1 second
 * Put `strip show color black` to turn off the LED
 * Pause for 0.1 second again
-![auto_fit](images/Case11/Case11_p4.png)<P>
+![auto_fit](images/Case11/Case11_p5.png)<P>
 
-<span id="subtitle">Step 5. Action on IFTTT</span><BR><P>
-* Before sending the IFTTT message, need to check the network state of IoT:bit
-* Put a `if` statement with `WiFi connected?` condition
-* Put a `Send IFTTT key* XXXXXXXXX event_name* XXXXX ....`inside the `if` segment
-* Fill in the IFTTT key from your Webhooks and the Applet's event_name
-![pic_50](images/Case11/Case11_p5.png)<P>
-
-<span id="subtitle">Step 6. Make the alert warning sound</span><BR><P>
-* Play the alert warning sound from the buzzer by `play tone High B for 2 beat`
+<span id="subtitle">Step 6. Action on IFTTT</span><BR><P>
+* Put a `Send IFTTT key* XXXXXXXXX event_name* XXXXX ....` to send the event to IFTTT
+* Fill in the `IFTTT key` from your Webhooks and the Applet's `event_name`
 ![pic_50](images/Case11/Case11_p6.png)<P>
 
 <span id="subtitle">Step 7. Know the Upload result</span><BR><P>
@@ -122,14 +137,14 @@ In the THEN field, search for the “email” and use it to replace the “notif
 * Inside the `On IFTTT Uploaded`, use OLED display to show the information
 * Clear the OLED display before each update by `clear OLED display`
 * Show upload state by `show string join IFTTT: Status`, the `Status` value is from the function's placeholder
-* * Show error_code by `show string join Error: Error_code`, the `Error_code` value is from the function's placeholder
+* Show error_code by `show string join Error: Error_code`, the `Error_code` value is from the function's placeholder
 ![pic_50](images/Case11/Case11_p7.png)<P>
 
 
 <span id="subtitle">Full Solution<BR><P>
-MakeCode: [https://makecode.microbit.org/_JY6euUMkqWFi](https://makecode.microbit.org/_JY6euUMkqWFi)<BR><P>
+MakeCode: [https://makecode.microbit.org/_PaX5qwPeRa0e](https://makecode.microbit.org/_PaX5qwPeRa0e)<BR><P>
 You could also download the program from the following website:<BR>
-<iframe src="https://makecode.microbit.org/#pub:_JY6euUMkqWFi" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="https://makecode.microbit.org/#pub:_PaX5qwPeRa0e" width="100%" height="500" frameborder="0"></iframe>
 
 
 

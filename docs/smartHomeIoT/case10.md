@@ -16,7 +16,7 @@ Health monitoring is the concept of tracking the conditions of different paramet
 
 <span id="subtitle">Home health monitoring system operation</span><BR><P>
 In this scenario, integrated temperature and humidity sensor DHT11 is used. It can track and send back the data collected to the main control board for further analysis, constant display and cloud server storage. Also the IAQ Score analyst can help to estimate the environment status.<BR><P>
-![auto_fit](images/Case10/blank.png)<P>
+
 
 ## Part List
 <HR>
@@ -101,7 +101,7 @@ In this scenario, integrated temperature and humidity sensor DHT11 is used. It c
 1. `show string join Temperature: temperature` for temperature
 2. `show string join Humidity: humidity %` for humidity
 3. `show string Join IAQ Score: iaq_score` for iaq_score
-* ![auto_fit](images/Case10/Case10_p7.png)<P>
+![auto_fit](images/Case10/Case10_p7.png)<P>
 
 <span id="subtitle">Step 5. Analyst the environment status</span><BR><P>
 * Run the `check_condition` function to summarize the IAQ Score result

@@ -1,7 +1,7 @@
 # Case 08: Automatic Sunlight Detecting Curtain
 Level: ![level](images/level3.png)
 
-![auto_fit](images/Case8/blank.png)<P>
+![auto_fit](images/Case8/intro.png)<P>
 
 ## Goal
 <HR>
