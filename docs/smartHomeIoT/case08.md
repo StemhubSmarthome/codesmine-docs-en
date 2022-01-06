@@ -36,7 +36,7 @@ Cut the Curtain paper to 8cm*8cm<BR><P>
 ![auto_fit](images/Case8/Case8_ass1.png)<P>
 
 <span id="subtitle">Step 2</span><P>
-Stick the paper to the rod, stick some weight at the bottom, install the rod into servo and  <BR><P>
+Stick the paper to the rod, stick some blu Tack as weight at the bottom, install the rod into servo  <BR><P>
 
 ![auto_fit](images/Case8/Case8_ass2.png)<P>
 

@@ -1,6 +1,6 @@
 # IoT Case 09: Smart Digital Morning Clock
 
-Level: ![level](images/level3.png)
+Level: ![level](images/level4.png)
 ![auto_fit](images/Case9/intro.png)<P>
 
 ## Goal

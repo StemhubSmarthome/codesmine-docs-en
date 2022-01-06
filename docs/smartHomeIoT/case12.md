@@ -1,6 +1,6 @@
 # IoT Case 12: Room Smart Colourful Light Control
 
-Level: ![level](images/level5.png)
+Level: ![level](images/level4.png)
 ![auto_fit](images/Case12/intro.png)<P>
 
 ## Goal

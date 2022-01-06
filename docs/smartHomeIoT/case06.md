@@ -1,6 +1,6 @@
 # Case 06: Mechanical Password Switch Door
 
-Level: ![level](images/level2.png)
+Level: ![level](images/level3.png)
 ![auto_fit](images/Case6/intro.png)<P>
 
 ## Goal

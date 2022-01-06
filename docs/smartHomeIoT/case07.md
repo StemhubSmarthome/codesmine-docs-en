@@ -1,6 +1,6 @@
 # Case 07: Smart Remote Control Musical Light
 
-Level: ![level](images/level2.png)
+Level: ![level](images/level3.png)
 ![auto_fit](images/Case7/intro.png)<P>
 
 ## Goal
