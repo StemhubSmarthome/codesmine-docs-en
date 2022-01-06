@@ -148,7 +148,7 @@ When the sender micro:bit sends the `funny` message, receiver micro:bit will pla
 When the sender micro:bit sends the `excited` message, receiver micro:bit will play the excited music and the light will show in flash mode.<BR>
 When the sender micro:bit sends the `stop_music` message, receiver micro:bit will stop the music and turn off the light.
 <BR><P>
-![auto_fit](images/Case7/Case7_result.png)<P>
+![auto_fit](images/Case7/Case7_result.gif)<P>
 
 ## Think
 <HR>

@@ -37,11 +37,23 @@ The system will consist of two crocodile clips each with one side connected to t
 <HR>
 
 <span id="subtitle">Step 1</span><P>
-Connect the crocodile clip to P1 and GND.<BR><P>
+Now, we will build a toilet room. Insert E3 cardboard on A cardboard, align with holes at A, B2<BR><P>
+
 ![pic](images/Case4/Case4_ass1.png)<P>
 <span id="subtitle">Step 2</span><P>
-Put the clip to the level which need to detect water<BR><P>
+Insert E1 cardboard on A cardboard, align with holes at A,B3<BR><P>
+
 ![pic](images/Case4/Case4_ass2.png)<P>
+
+<span id="subtitle">Step 3</span><P>
+* Find a plastic water bottle and cut it to become a water tank<P>
+* Place the water tank in the toilet<P>
+
+Place two clips to position that want to detect water flowing
+<BR><P>
+
+![pic](images/Case4/Case4_ass3.png)<P>
+
 
 ## Hardware connect
 <HR>

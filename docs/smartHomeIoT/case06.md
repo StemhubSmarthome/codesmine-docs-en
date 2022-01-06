@@ -26,12 +26,19 @@ Nowadays, digital locks are common, apart from preventing theft going in, it als
 <HR>
 
 <span id="subtitle">Step 1</span><P>
-Use M4 screws and nuts to install the button on the wall<BR><P>
-![pic](images/Case6/Case6_ass1.png)<P>
+Build the base model of house<BR><P>
+
+![pic](images/Case6/Case6_ass3.png)<P>
 <span id="subtitle">Step 2</span><P>
-Install the servo on the ground and connect to the door by hook 
-<BR><P>
+Use M4 screws to install the button module on B1 cardboard, take place near the door<BR><P>
+
+![pic](images/Case6/Case6_ass1.png)<P>
+
+<span id="subtitle">Step 3</span><P>
+Install the servo on the ground and connect to the door by hook <BR><P>
+	
 ![pic](images/Case6/Case6_ass2.png)<P>
+
 
 ## Hardware connect
 <HR>
@@ -75,16 +82,16 @@ Install the servo on the ground and connect to the door by hook
 ![auto_fit](images/Case6/Case6_p5.png)<P>
 
 <span id="subtitle">Full Solution<BR><P>
-MakeCode: [https://makecode.microbit.org/_agKTsmi8tD4C](https://makecode.microbit.org/_agKTsmi8tD4CF)<BR><P>
+MakeCode: [https://makecode.microbit.org/_agKTsmi8tD4C](https://makecode.microbit.org/_agKTsmi8tD4C)<BR><P>
 You could also download the program from the following website:<BR>
-<iframe src="https://makecode.microbit.org/#pub:_agKTsmi8tD4CF" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="https://makecode.microbit.org/#pub:_agKTsmi8tD4C" width="100%" height="500" frameborder="0"></iframe>
 
 
 ## Results
 <HR>
 
 After pressing the correct number of button A and B, press A+B to do the validation.<BR>If it is the correct password, press the extended button, the door will open. After open for 5 second, the door will close and lock again.<BR><P>
-![pic](images/Case6/Case6_result.png)<P>
+![pic](images/Case6/Case6_result.gif)<P>
 
 ## Think
 <HR>

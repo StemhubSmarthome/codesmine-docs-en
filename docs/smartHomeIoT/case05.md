@@ -21,15 +21,35 @@ When the door is closed, the inside of the fridge should be dark.<BR>When the do
 ## Part List
 <HR>
 
-![auto_fit](images/Case5/blank.png)<P>
+![auto_fit](images/Case5/Case5_parts.png)<P>
 
 ## Assembly step
 <HR>
 
 <span id="subtitle">Step 1</span><P>
-Use M4 screws and nuts to install the light sensor on the fridge door.
+Use M4 screws and nuts to install the light sensor to G1 cardboard
 <BR><P>
+
 ![auto_fit](images/Case5/Case5_ass1.png)<P>
+<span id="subtitle">Step 2</span><P>
+Fold and bend the G1 cardboard correctly, insert the G3 cardboard to G1 cardboard, align with the holes<BR><P>
+
+![auto_fit](images/Case5/Case5_ass2.png)<P>
+<span id="subtitle">Step 3</span><P>
+Insert the G2 cardboard on the G1 cardboard, align with the holes<BR><P>
+
+![auto_fit](images/Case5/Case5_ass3.png)<P>
+<span id="subtitle">Step 4</span><P>
+Insert the E3 cardboard on A cardboard, align with the holes on A and B4 <BR><P>
+
+![auto_fit](images/Case5/Case5_ass4.png)<P>
+<span id="subtitle">Step 5</span><P>
+Insert the E1 cardboard on A cardboard, align with the holes on A and B3<BR><P>
+![auto_fit](images/Case5/Case5_ass5.png)<P>
+
+<span id="subtitle">Step 6</span><P>
+Place the fridge at corner <BR><P>
+![auto_fit](images/Case5/Case5_ass6.png)<P>
 
 ## Hardware connect
 <HR>
@@ -74,7 +94,7 @@ You could also download the program from the following website:<BR>
 When the door is opened for more than 1 minute, the buzzer will play some sound to warn the user.
 <BR><P>
 
-![auto_fit](images/Case5/Case5_result.png)<P>
+![auto_fit](images/Case5/Case5_result.gif)<P>
 
 ## Think
 <HR>

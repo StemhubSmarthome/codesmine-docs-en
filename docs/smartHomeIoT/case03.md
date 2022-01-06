@@ -73,7 +73,8 @@ Place at the room corner<BR><P>
 ![pic_70](images/Case3/Case3_p2.png)<P>
 
 <span id="subtitle">Step 3. Read and show the reading from DHT11</span><P>
-* In `Forever`, put (set temperature to `DHT11 Read temperature at pin p0`)
+* In `Forever`, read the data by `Read Temperature & Humidity Sensor at pin P0`
+* Get the temperature value from data, and save it to variable by `(set temperature to Get Temperature °C`)
 * Before update the screen infomation, suggest clear up the OLED display each time
 * Use `clear OLED display` to clear the display
 * Then use `show string join Temperature: temperature` to show the temperature value with formatted text on display
@@ -90,9 +91,9 @@ Place at the room corner<BR><P>
 ![pic_90](images/Case3/Case3_p4.png)<P>
 
 <span id="subtitle">Full Solution<BR><P>
-MakeCode: [https://makecode.microbit.org/_J9tMLeYahD6j](https://makecode.microbit.org/_J9tMLeYahD6j)<BR><P>
+MakeCode: [https://makecode.microbit.org/_4RzYwX1gT4k3](https://makecode.microbit.org/_4RzYwX1gT4k3)<BR><P>
 You could also download the program from the following website:<BR>
-<iframe src="https://makecode.microbit.org/#pub:_J9tMLeYahD6j" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="https://makecode.microbit.org/#pub:_4RzYwX1gT4k3" width="100%" height="500" frameborder="0"></iframe>
 
 
 ## Result

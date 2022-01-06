@@ -17,26 +17,38 @@ Automatic Sunlight Detecting Curtain is a curtain that scrolls up or down automa
 <span id="subtitle">Automatic Sunlight Detecting Curtain principle</span><P>
 The light sensor is implemented outside of the house. When it returns light it indicates that there is sunlight that can reach the house. The curtain in this case should scroll down for cutting heat energy transferring into the house, to reduce power waste of air conditioner.
 <BR><P>
-![auto_fit](images/Case8/blank.png)<P>
+
+## Key knowledge
+In programming part, there is a "flag" concept to be used in this case. It can check whether the curtain is pulled down or not and prevent from keeping pull down the curtain.
+
 
 ## Part List
 <HR>
 
-![auto_fit](images/Case8/blank.png)<P>
+![auto_fit](images/Case8/Case8_parts.png)<P>
 
  
 ## Assembly step
 <HR>
 <span id="subtitle">Step 1</span><P>
-Install the servo to the placeholder and check the place of curtain<BR><P>
+Cut the Curtain paper to 8cm*8cm<BR><P>
 
 ![auto_fit](images/Case8/Case8_ass1.png)<P>
 
 <span id="subtitle">Step 2</span><P>
-Install the light sensor on the house outside <BR><P>
+Stick the paper to the rod, stick some weight at the bottom, install the rod into servo and  <BR><P>
 
 ![auto_fit](images/Case8/Case8_ass2.png)<P>
 
+<span id="subtitle">Step 3</span><P>
+Use M2 screw to install the servo to the placeholder and check the place of curtain<BR><P>
+
+![auto_fit](images/Case8/Case8_ass3.png)<P>
+
+<span id="subtitle">Step 4</span><P>
+Install the light sensor on the C1 cardboard<BR><P>
+
+![auto_fit](images/Case8/Case8_ass4.png)<P>
 
 
 ## Hardware connect
@@ -102,7 +114,7 @@ You could also download the program from the following website:<BR>
 
 When the light sensor detects the light value outside the house is strong, the servo will rotate to scroll down the curtain. When the light is not strong, the servo will rotate in anti direction to scroll up the curtain
 
-![auto_fit](images/Case8/Case8_result.png)<P>
+![auto_fit](images/Case8/Case8_result.gif)<P>
 
 ## Think
 <HR>

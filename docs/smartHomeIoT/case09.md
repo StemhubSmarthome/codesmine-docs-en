@@ -115,7 +115,7 @@ You could also download the program from the following website:<BR>
 
 ## Result
 After you connected to the Internet, the tick will open an start getting NTP time.<BR><P>
-![auto_fit](images/Case9/Case9_result.png)<P>
+![auto_fit](images/Case9/Case9_result.gif)<P>
 
  
 
