@@ -14,17 +14,24 @@ Make a toilet water leakage detection system by checking the conductivity of dev
 <span id="subtitle">What is a toilet water leakage detection system?</span><P>
 Toilet water leakage detection system is a system that can trigger alert upon unwanted water leakage situations.<BR><P>
 
+<span id="subtitle">What is “On Pin Pressed”?</span><P>
+"On Pin Pressed” means the Pin connected to the ground, it will get the analog reading “0” and return “True". When it is not connected to ground, the reading will be not “0” and return “False”.
+
+
 <span id="subtitle">What is an Electrical circuit?</span><P>
 Electrical Circuit is one of basic concepts in electronic engineering, when something can let electric current pass through, it builds up a circuit.<P>
-Generally, a circuit will have two states, if the circuit is complete, able to let the current pass, it is called closed circuit. If the circuit has a breakpoint, and cannot let the current pass, it becomes an open circuit.<p>
-However, how to let the current pass through? It is related to the material of the circuit. All the materials have their own physical property, one of property is conductivity. If the conductivity is high enough, it is called a conductor and able to let the current pass through easier, in opposite, if the conductivity is low, it is called an insulator which will stop the current pass through.<P>
-In daily life, metal usually has a high conductivity, so the electric wires are made of copper. In addition, some ionic material such as tap water also takes the same property, able to become a conductor to build a circuit.
-<BR><P>
+Generally, a circuit will have two states, if the circuit is complete, able to let the current pass, it is called closed circuit. If the circuit has a breakpoint, and cannot let the current pass, it becomes an open circuit.<P>
+However, how to let the current pass through? It is related to the material of the circuit. In daily life, metal usually has a high conductivity, so it can be used to build the circuit. In addition, some ionic material such as tap water also takes the same property, able to become a conductor to build a circuit. But air has very bad conductivity, so it is hard to let current pass through.<BR><P>
+
+
+![auto_fit](images/Case4/Case4_bg1.png)
+
 
 <span id="subtitle">Toilet water leakage detection system principle</span><P>
 
-The system will consist of two crocodile clips each with one side connected to the board, one installed to the place of detection, with two clips physically disconnected. Air is an excellent insulator, so the circuit will become open circuit.  When water is leaked around that area, the water will replace the air between two clips, thus becoming a closed circuit, electricity will flow between the Board's detection Pin and ground Pin. It will trigger the detection to make the water leakage be detected and the system will send an alert.
-<BR><P>
+The system will consist of two crocodile clips each with one side connected to the board, one installed to the place of detection, with two clips physically disconnected. Air is an excellent insulator, so the circuit will become open circuit.  When water is leaked around that area, the water will replace the air between two clips, thus becoming a closed circuit, electricity will flow between the Board's detection Pin and ground Pin. It will trigger the detection to make the water leakage be detected and the system will send an alert.<BR><P>
+
+![auto_fit](images/Case4/Case4_bg2.png)
 
 
 

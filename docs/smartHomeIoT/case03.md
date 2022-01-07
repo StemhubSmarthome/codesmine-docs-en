@@ -54,11 +54,9 @@ Place at the room corner<BR><P>
 ## Hardware connect
 <HR>
 
-1. Connect the Temperature and Humidity sensor (DHT11) to P0
+1. Connect the Temperature and Humidity sensor (DHT11) to P2
 2. Connect the extended OLED display to I2C Port 
 3. Connect the Motor module to P1
-4. Pull up the Buzzer switch to disconnect the Buzzer
-
 ![pic](images/Case3/Case3_hardware.png)<P>
 
 ## Programming (MakeCode)
@@ -73,7 +71,7 @@ Place at the room corner<BR><P>
 ![pic_70](images/Case3/Case3_p2.png)<P>
 
 <span id="subtitle">Step 3. Read and show the reading from DHT11</span><P>
-* In `Forever`, read the data by `Read Temperature & Humidity Sensor at pin P0`
+* In `Forever`, read the data by `Read Temperature & Humidity Sensor at pin P2`
 * Get the temperature value from data, and save it to variable by `(set temperature to Get Temperature °C`)
 * Before update the screen infomation, suggest clear up the OLED display each time
 * Use `clear OLED display` to clear the display
@@ -91,9 +89,9 @@ Place at the room corner<BR><P>
 ![pic_90](images/Case3/Case3_p4.png)<P>
 
 <span id="subtitle">Full Solution<BR><P>
-MakeCode: [https://makecode.microbit.org/_4RzYwX1gT4k3](https://makecode.microbit.org/_4RzYwX1gT4k3)<BR><P>
+MakeCode: [https://makecode.microbit.org/_c2637VXcbfHP](https://makecode.microbit.org/_c2637VXcbfHP)<BR><P>
 You could also download the program from the following website:<BR>
-<iframe src="https://makecode.microbit.org/#pub:_4RzYwX1gT4k3" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="https://makecode.microbit.org/#pub:_c2637VXcbfHP" width="100%" height="500" frameborder="0"></iframe>
 
 
 ## Result

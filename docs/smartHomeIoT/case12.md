@@ -1,4 +1,4 @@
-# IoT Case 12: Room Smart Colourful Light Control
+# IoT Case 12: Room Smart Colourful Light App Control
 
 Level: ![level](images/level4.png)
 ![auto_fit](images/Case12/intro.png)<P>

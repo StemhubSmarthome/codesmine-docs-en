@@ -165,7 +165,7 @@ You could also download the program from the following website:<BR>
 
 When the flame source is detected by the flame sensor, it will trigger to blink the LED, making alert sound, and send the warning notification to IFTTT
 <BR><P>
-![auto_fit](images/Case11/Case11_result1.png)<P>
+![auto_fit](images/Case11/Case11_result.gif)<P>
 ![auto_fit](images/Case11/Case11_result2.png)<P>
 
 ## Think

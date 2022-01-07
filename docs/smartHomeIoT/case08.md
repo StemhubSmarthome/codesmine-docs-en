@@ -54,9 +54,8 @@ Install the light sensor on the C1 cardboard<BR><P>
 ## Hardware connect
 <HR>
 
-1. Connect the light sensor to P0
+1. Connect the light sensor to P1
 2. Connect the 360 degree servo to P2
-3. Pull up the buzzer switch to disconnect the buzzer
 ![auto_fit](images/Case8/Case8_hardware.png)<P>
 
 ## Programming (MakeCode)
@@ -87,7 +86,7 @@ Install the light sensor on the C1 cardboard<BR><P>
 ![auto_fit](images/Case8/Case8_p3.png)<P>
 
 <span id="subtitle">Step 4. Get the light intensity value</span><P>
-* In `Forever`, reading the value by `set light to Get light value (percentage) at Pin P0`
+* In `Forever`, reading the value by `set light to Get light value (percentage) at Pin P1`
 * Clear the OLED display before each update by `clear OLED display`
 * Show the number of value on display by `show number light`
 
