@@ -27,15 +27,31 @@ In this scenario, integrated temperature and humidity sensor DHT11 is used. It c
 <HR>
 
 <span id="subtitle">Step 1</span><BR><P>
-* Use M4 screws and nuts to install the DHT11 temperature and humidity sensor to E4 cardboard
 * Use M2 screws and nuts to install the OLED display to E4 cardboard
-
 ![auto_fit](images/Case10/Case10_ass1.png)<P>
 
 <span id="subtitle">Step 2</span><BR><P>
-* Insert the E4 cardboard on A cardboard to build a sensor display wall
+* Use M4 screws and nuts to install the DHT11 temperature and humidity sensor to E4 cardboard 
+![auto_fit](images/Case10/Case10_ass2.png)<P>
 
-![auto_fit](images/Case10/blank.png)<P>
+<span id="subtitle">Step 3</span><BR><P>
+* Insert the E4 cardboard on A cardboard, align with holes at A and B2 cardboard
+![auto_fit](images/Case10/Case10_ass3.png)<P>
+
+
+<span id="subtitle">Step 4</span><BR><P>
+* Insert the E2 cardboard on A cardboard, align with holes at A and B3 cardboard
+![auto_fit](images/Case10/Case10_ass4.png)<P>
+
+
+<span id="subtitle">Step 5</span><BR><P>
+* Build the sofa with cardboard K1,K2,K3
+![auto_fit](images/Case10/Case10_ass5.png)<P>
+
+
+<span id="subtitle">Step 6</span><BR><P>
+* Plase the sofa model at suitable position
+![auto_fit](images/Case10/Case10_ass6.png)<P>
 
 
 ## Hardware connect
@@ -138,12 +154,10 @@ You could also download the program from the following website:<BR>
 ## Result
 <HR>
 
-The OLED show the temperature, humidity, IAQ Score and the environment condition based on IAQ Score
-![auto_fit](images/Case10/Case10_result1.png)<P>
-After upload, show the uploading information
+The OLED show the temperature, humidity, IAQ Score and the environment condition based on IAQ Score. After upload, show the uploading information
 <P>
 
-![auto_fit](images/Case10/Case10_result2.png)<P>
+![auto_fit](images/Case10/Case10_result.gif)<P>
 
 
 ## Think

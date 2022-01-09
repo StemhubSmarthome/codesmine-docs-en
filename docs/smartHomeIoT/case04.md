@@ -14,10 +14,6 @@ Make a toilet water leakage detection system by checking the conductivity of dev
 <span id="subtitle">What is a toilet water leakage detection system?</span><P>
 Toilet water leakage detection system is a system that can trigger alert upon unwanted water leakage situations.<BR><P>
 
-<span id="subtitle">What is “On Pin Pressed”?</span><P>
-"On Pin Pressed” means the Pin connected to the ground, it will get the analog reading “0” and return “True". When it is not connected to ground, the reading will be not “0” and return “False”.
-
-
 <span id="subtitle">What is an Electrical circuit?</span><P>
 Electrical Circuit is one of basic concepts in electronic engineering, when something can let electric current pass through, it builds up a circuit.<P>
 Generally, a circuit will have two states, if the circuit is complete, able to let the current pass, it is called closed circuit. If the circuit has a breakpoint, and cannot let the current pass, it becomes an open circuit.<P>
@@ -33,6 +29,12 @@ The system will consist of two crocodile clips each with one side connected to t
 
 ![auto_fit](images/Case4/Case4_bg2.png)
 
+
+<span id="subtitle">What is “Pin is Pressed”?</span><P>
+"Pin is Pressed” means the Pin connected to the ground, it will get the analog reading “0” and return “True". When it is not connected to ground, the reading will be not “0” and return “False”.<BR>
+Apply to this example case:<P>
+
+![auto_fit](images/Case4/Case4_bg3.png)
 
 
 ## Part List

@@ -28,7 +28,28 @@ A smart light can be controlled through wireless communication, in this case a m
 <HR>
 
 <span id="subtitle">Step 1</span><BR><P>
-Step 1. Attach the raindrop sensor to the model H2<BR><P>
+Use M4 screw and nuts to install the Multi-color LED to B4 cardboard<BR><P>
+![auto_fit](images/Case12/Case12_ass1.png)<P>
+
+<span id="subtitle">Step 2</span><BR><P>
+Insert the E3 cardboard on A cardboard, align with holes at A and B3 cardboard
+<BR><P>
+![auto_fit](images/Case12/Case12_ass2.png)<P>
+
+<span id="subtitle">Step 3</span><BR><P>
+Insert the E2 cardboard on A cardboard, align with the holes at A and B3 cardboard
+<BR><P>
+![auto_fit](images/Case12/Case12_ass3.png)<P>
+
+<span id="subtitle">Step 4</span><BR><P>
+Build the bed model with J1,J2,J3,J4 cardboard
+<BR><P>
+![auto_fit](images/Case12/Case12_ass4.jpg)<P>
+
+<span id="subtitle">Step 5</span><BR><P>
+Place the bed at the suitable position
+<BR><P>
+![auto_fit](images/Case12/Case12_ass5.png)<P>
 
 
 ## Hardware connect
@@ -119,6 +140,8 @@ For example<P>
 ![auto_fit](images/Case12/Case12_p9.png)<P>
 
 [AIA](https://raw.githubusercontent.com/SMARTHON/smarthon-docs-en/master/docs/_static/smarthome_case12_app.aia)
+<P>
+	
 [APK](https://raw.githubusercontent.com/SMARTHON/smarthon-docs-en/master/docs/_static/smarthome_case12_app.apk)
 
 
@@ -126,7 +149,7 @@ For example<P>
 <HR>
 After sending color messages from APPs, the color of light will change.<BR><P>
 
-![auto_fit](images/Case12/Case12_result.png)<P>
+![auto_fit](images/Case12/Case12_result.gif)<P>
 
 ## Think
 <HR>

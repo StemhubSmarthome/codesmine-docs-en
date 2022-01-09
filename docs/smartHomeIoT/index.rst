@@ -7,6 +7,7 @@ Smarthon Smart Home IoT Maker Kit
     :numbered: 2
 
     Introduction.md
+    assembly.md
     GetStart.md
     case01.md
     case02.md

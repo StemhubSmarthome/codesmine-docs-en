@@ -95,17 +95,17 @@ Install the light sensor on the C1 cardboard<BR><P>
 <span id="subtitle">Step 5. Examine the light intensity value and reaction</span><P>
 
 * Snap a nested `if statement` to `Forever`
-* Set `light2 >= 30 ` and `curtainOn =  true` as first condition
+* Set `light2 >= 70 ` and `curtainOn =  true` as first condition
 * In the `if` segment, that's means the sunlight is strong, need to close the curtain, `call closeCurtain`
-* In the second condition, use `light2 < 30` and `curtainOn = false` 
+* In the second condition, use `light2 < 40` and `curtainOn = false` 
 * In the second `if` segment, that's means the sunlight is weak, need to open the curtain, `call openCurtain`
 
 ![auto_fit](images/Case8/Case8_p5.png)<P>
 
 <span id="subtitle">Full Solution<BR><P>
-MakeCode: [https://makecode.microbit.org/_Kwc4M2EhWW8P](https://makecode.microbit.org/_Kwc4M2EhWW8P)<BR><P>
+MakeCode: [https://makecode.microbit.org/_ieEiYx8qffxJ](https://makecode.microbit.org/_ieEiYx8qffxJ)<BR><P>
 You could also download the program from the following website:<BR>
-<iframe src="https://makecode.microbit.org/#pub:_Kwc4M2EhWW8P" width="100%" height="500" frameborder="0"></iframe>
+<iframe src="https://makecode.microbit.org/#pub:_ieEiYx8qffxJ" width="100%" height="500" frameborder="0"></iframe>
 
 
 ## Result
