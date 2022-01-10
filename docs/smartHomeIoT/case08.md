@@ -19,13 +19,15 @@ The light sensor is implemented outside of the house. When it returns light it i
 <BR><P>
 
 ## Key knowledge
+<HR>
+
 In programming part, there is a "flag" concept to be used in this case. It can check whether the curtain is pulled down or not and prevent from keeping pull down the curtain.
 
 
 ## Part List
 <HR>
 
-![auto_fit](images/Case8/Case8_parts.png)<P>
+![pic_90](images/Case8/Case8_parts.png)<P>
 
  
 ## Assembly step
@@ -38,17 +40,17 @@ Cut the Curtain paper to 8cm*8cm<BR><P>
 <span id="subtitle">Step 2</span><P>
 Stick the paper to the rod, stick some blu Tack as weight at the bottom, install the rod into servo  <BR><P>
 
-![auto_fit](images/Case8/Case8_ass2.png)<P>
+![pic_80](images/Case8/Case8_ass2.png)<P>
 
 <span id="subtitle">Step 3</span><P>
 Use M2 screw to install the servo to the placeholder and check the place of curtain<BR><P>
 
-![auto_fit](images/Case8/Case8_ass3.png)<P>
+![pic_80](images/Case8/Case8_ass3.png)<P>
 
 <span id="subtitle">Step 4</span><P>
 Install the light sensor on the C1 cardboard<BR><P>
 
-![auto_fit](images/Case8/Case8_ass4.png)<P>
+![pic_80](images/Case8/Case8_ass4.png)<P>
 
 
 ## Hardware connect
@@ -56,7 +58,7 @@ Install the light sensor on the C1 cardboard<BR><P>
 
 1. Connect the light sensor to P1
 2. Connect the 360 degree servo to P2
-![auto_fit](images/Case8/Case8_hardware.png)<P>
+![pic_80](images/Case8/Case8_hardware.png)<P>
 
 ## Programming (MakeCode)
 <HR>

@@ -12,15 +12,15 @@ Make a digital clock that performs a normal clock function with auto-synchronizi
 <HR>
 
 <span id="subtitle">What is smart digital clock?</span><BR><P>
-Smart digital clock is a clock that shows time as accurate as atomic clock by connecting to the Internet.<BR><P>
+Smart digital clock is a clock that shows time as accurate as close to atomic clock by connecting to the Internet.<BR><P>
 <span id="subtitle">Smart digital clock principle</span><BR><P>
-NTP protocol ensures devices synchronize their time with an accurate time provider. With connecting to the Internet the digital clock can even show the time of a performing atomic clock.<BR><P>
+NTP protocol ensures devices synchronize their time with an accurate time provider. With connecting to the Internet the digital clock can even show the time close to atomic clock in millisecond .<BR><P>
 
 
 ## Part List
 <HR>
 
-![auto_fit](images/Case9/Case9_parts.png)<P>
+![pic_90](images/Case9/Case9_parts.png)<P>
 
 ## Assembly step
 <HR>
@@ -53,7 +53,7 @@ Place the bed at the correct position<BR><P>
 2. Pull down the buzzer switch to connect the buzzer
 
 
-![auto_fit](images/Case9/Case9_hardware.png)<P>
+![pic_80](images/Case9/Case9_hardware.png)<P>
 
 ## Programming (MakeCode)
 <HR>
@@ -78,7 +78,7 @@ Place the bed at the correct position<BR><P>
 * In `if` segment, put `Get NTP Current Time at city HongKong(UTC+8)` to get NTP time
 * `Pause 500ms` to get the NTP time with each 0.5 second
 
-![auto_fit](images/Case9/Case9_p3.png)<P>
+![pic_90](images/Case9/Case9_p3.png)<P>
 
 <span id="subtitle">Step 4. Show the NTP time on display</span><BR><P>
 * Put `On NTP received` to editor

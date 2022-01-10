@@ -7,7 +7,7 @@ Go to [MakeCode](https://makecode.microbit.org), create a new project<BR><P>
 ![auto_fit](images/GetStart/getstart01.png)<P>
 <span id="subtitle">Step 2</span><BR><P>
 Give the project a name<BR><P>
-![auto_fit](images/GetStart/getstart02.png)<P>
+![pic_60](images/GetStart/getstart02.png)<P>
 <span id="subtitle">Step 3</span><BR><P>
 Click "![icon](images/GetStart/icon_more.png)" and choose "Extensions" in the pull-down menu<BR><P>
 ![auto_fit](images/GetStart/getstart03.png)<BR><P>

@@ -26,40 +26,40 @@ Micro:bit includes the radio function, allowing two or more Micro:bit to form a 
 
 <H3>Receiver</H3>
 
-![auto_fit](images/Case7/Case7_parts_1.png)<P>
+![pic_90](images/Case7/Case7_parts_1.png)<P>
 
 <H3>Sender</H3>
 
-![auto_fit](images/Case7/Case7_parts_2.png)<P>
+![pic_90](images/Case7/Case7_parts_2.png)<P>
 
 ## Assembly step
 <HR>
 
 <span id="subtitle">Step 1</span><P>
 Use M4 screws and nuts to install the Multi-Color LED to B3 cardboard<BR><P>
-![auto_fit](images/Case7/Case7_ass1.png)<P>
+![pic_80](images/Case7/Case7_ass1.png)<P>
 
 <H3>Optional</H3>
 
 <span id="subtitle">Step 2</span><P>
 Build a sofa model with K1,K2,K3 cardboards<BR><P>
 
-![auto_fit](images/Case7/Case7_ass2.png)<P>
+![pic_80](images/Case7/Case7_ass2.png)<P>
 
 <span id="subtitle">Step 3</span><P>
 Place the sofa at the room<BR><P>
 
-![auto_fit](images/Case7/Case7_ass3.png)<P>
+![pic_80](images/Case7/Case7_ass3.png)<P>
 
 <span id="subtitle">Step 4</span><P>
 Insert the E1 cardboard on A, align with A and B3 holes<BR><P>
 
-![auto_fit](images/Case7/Case7_ass4.png)<P>
+![pic_80](images/Case7/Case7_ass4.png)<P>
 
 <span id="subtitle">Step 5</span><P>
 Stick the Decoration Display Model (H cardboard) on B3<BR><P>
 
-![auto_fit](images/Case7/Case7_ass5.png)<P>
+![pic_80](images/Case7/Case7_ass5.png)<P>
 
 
 ## Hardware connect
@@ -68,7 +68,7 @@ Stick the Decoration Display Model (H cardboard) on B3<BR><P>
 1. Connect the Multi-Color LED to P1
 2. Pull down the buzzer switch to bottom position
 
-![auto_fit](images/Case7/Case7_hardware.png)<P>
+![pic_80](images/Case7/Case7_hardware.png)<P>
 
 ## Programming (MakeCode)
 <HR>

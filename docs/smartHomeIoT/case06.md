@@ -5,7 +5,7 @@ Level: ![level](images/level3.png)
 
 ## Goal
 <HR>
-Make a mechanical door that open upon button pressed and correct password input<BR><P>
+Make a mechanical door that open upon button pressed and password correct<BR><P>
 
 ## Background
 <HR>
@@ -20,7 +20,7 @@ Nowadays, digital locks are common, apart from preventing theft going in, it als
 ## Part List
 <HR>
 
-![pic](images/Case6/Case6_parts.png)<P>
+![pic_90](images/Case6/Case6_parts.png)<P>
 
 ## Assembly step
 <HR>
@@ -28,16 +28,16 @@ Nowadays, digital locks are common, apart from preventing theft going in, it als
 <span id="subtitle">Step 1</span><P>
 Build the base model of house<BR><P>
 
-![pic](images/Case6/Case6_ass3.png)<P>
+![pic_80](images/Case6/Case6_ass3.png)<P>
 <span id="subtitle">Step 2</span><P>
 Use M4 screws to install the button module on B1 cardboard, take place near the door<BR><P>
 
-![pic](images/Case6/Case6_ass1.png)<P>
+![pic_80](images/Case6/Case6_ass1.png)<P>
 
 <span id="subtitle">Step 3</span><P>
 Install the servo on the ground and connect to the door by hook <BR><P>
 	
-![pic](images/Case6/Case6_ass2.png)<P>
+![pic_80](images/Case6/Case6_ass2.png)<P>
 
 
 ## Hardware connect
@@ -47,7 +47,7 @@ Install the servo on the ground and connect to the door by hook <BR><P>
 2. Connect the 180 degree servo to P1
 3. Pull up the buzzer switch to disconnect from buzzer
 
-![pic](images/Case6/Case6_hardware.png)<P>
+![pic_80](images/Case6/Case6_hardware.png)<P>
 
 ## Programming (MakeCode)
 <HR>
@@ -90,7 +90,8 @@ You could also download the program from the following website:<BR>
 ## Results
 <HR>
 
-After pressing the correct number of button A and B, press A+B to do the validation.<BR>If it is the correct password, press the extended button, the door will open. After open for 5 second, the door will close and lock again.<BR><P>
+After pressing the correct number of button A and B, press A+B to do the validation.<BR>If it is the correct password, press the extended button, the door will open. After 5 seconds, the door will close and lock again. If wrong, do not open the door.
+<BR><P>
 ![pic](images/Case6/Case6_result.gif)<P>
 
 ## Think
@@ -99,5 +100,5 @@ After pressing the correct number of button A and B, press A+B to do the validat
 Apart from using a physical button, are there better ways of controlling the open and close of the door?
 
 1. Can it make a doorbell to produce sound when the door is opening?
-2. Other than the door, can the switch apply to other usage? (e.g control LED)
+2. Other than the door, can the switch apply to other usage? (e.g Turn on/off LED)
 3. Can you add a rule, if input is incorrect more than 3 times, show the alert message and lock the door for 5 minutes?

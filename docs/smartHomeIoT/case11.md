@@ -6,24 +6,23 @@ Level: ![level](images/level4.png)
 ## Goal
 <HR>
 
-Make an automatic fire alert system by detecting the existence of fire nearby.
+Make a flame monitoring alert system by detecting the existence of strong fire nearby.
 
 ## Background
 <HR>
 
-<span id="subtitle">What is a smart kitchen fire alert system?</span><BR><P>
-Smart kitchen fire alert system is an alert system that reacts towards the presence of fire in the surrounding areas.
+Nowadays, fire accidents always happen when the homeowner is sleeping or outside the home. It is good to install an IOT system in the kitchen or living room to alert the user on his/her phone when he/she is sleeping or in the office so that he/she will wake up and rush out of the home to prevent a terrible accident from happening. 
+
 <BR><P>
 <span id="subtitle">Kitchen Safety Flame Monitoring Alert principle</span><BR><P>
 By installing a fire sensor in the area, the system will trigger an alarm and send a IFTTT notification to the house owner when there is fire detected in the sensor’s sight.
 <BR><P>
-<!-- 
-![auto_fit](images/Case11/Concept-diagram-Case11.png)<P> -->
+
 
 ## Part List
 <HR>
 
-![auto_fit](images/Case11/Case11_parts.png)<P>
+![pic_90](images/Case11/Case11_parts.png)<P>
  
 ## Assembly step
 <HR>
@@ -60,7 +59,7 @@ Place the cooking stove model to correct place<BR><P>
 
 ![pic_80](images/Case11/case11_ass7.png)<P>
 
-<span id="subtitle">Step 8 (Optional)</span><BR><P>
+<span id="subtitle">Step 8 (Optional, assembly step reference to case 5)</span><BR><P>
 Place the fridge model to suitable place  <BR><P>
 
 ![pic_80](images/Case11/case11_ass8.png)<P>
@@ -74,7 +73,7 @@ Place the fridge model to suitable place  <BR><P>
 2. Connect the Multi-Color LED to P1
 3. Pull down the buzzer switch to connect buzzer
 
-![auto_fit](images/Case11/Case11_hardware.png)<P>
+![pic_80](images/Case11/Case11_hardware.png)<P>
 
 
 ## IoT (IFTTT)
@@ -105,7 +104,7 @@ In the THEN field, search for the “email” and use it to replace the “notif
 ![pic_70](images/Case11/Case11_iot10.png)<P>
 
 ### Part 2: Install the IFTTT App on smartphone
-1. Go to play store or app store to search and download the IFTTT App
+1. Go to <U>play store</U> or <U>app store</U> to search and download the IFTTT App
 ![auto_fit](images/Case11/Case11_iot11.png)<P>
 2. Login to your IFTTT account
 ![auto_fit](images/Case11/Case11_iot12.png)<P>

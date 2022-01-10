@@ -12,7 +12,7 @@ Make a home health data monitoring system by collecting data from the sensors in
 <HR>
 
 <span id="subtitle">What is home health data monitoring system?</span><BR><P>
-Health monitoring is the concept of tracking the conditions of different parameters inside the user’s house. From the simplest temperature and humidity data to more advanced detection of CO2, town gas etc, having such system can help make alert for prevention of accident, like town gas leakage or short of oxygen inside the house.<BR><P>
+Health monitoring is the concept of tracking the conditions of different parameters inside the user’s house. For indoor, the important parameters to analyze the home comfortability are temperature, humidity, pm2.5, CO2 and VOC. In this system, we can base on temperature and humidity to measure the comfortability of the home. With the too high temperature or too low humidity will also affect the comfortability.<BR><P>
 
 <span id="subtitle">Home health monitoring system operation</span><BR><P>
 In this scenario, integrated temperature and humidity sensor DHT11 is used. It can track and send back the data collected to the main control board for further analysis, constant display and cloud server storage. Also the IAQ Score analyst can help to estimate the environment status.<BR><P>
@@ -21,37 +21,43 @@ In this scenario, integrated temperature and humidity sensor DHT11 is used. It c
 ## Part List
 <HR>
 
-![auto_fit](images/Case10/Case10_parts.png)<P>
+![pic_90](images/Case10/Case10_parts.png)<P>
 
 ## Assembly step
 <HR>
 
 <span id="subtitle">Step 1</span><BR><P>
-* Use M2 screws and nuts to install the OLED display to E4 cardboard
-![auto_fit](images/Case10/Case10_ass1.png)<P>
+* Use M2 screws and nuts to install the OLED display to E4 cardboard<P>
+
+![pic_80](images/Case10/case10_ass1.png)<P>
 
 <span id="subtitle">Step 2</span><BR><P>
-* Use M4 screws and nuts to install the DHT11 temperature and humidity sensor to E4 cardboard 
-![auto_fit](images/Case10/Case10_ass2.png)<P>
+* Use M4 screws and nuts to install the DHT11 temperature and humidity sensor to E4 cardboard <P>
+
+![pic_80](images/Case10/Case10_ass2.png)<P>
 
 <span id="subtitle">Step 3</span><BR><P>
-* Insert the E4 cardboard on A cardboard, align with holes at A and B2 cardboard
-![auto_fit](images/Case10/Case10_ass3.png)<P>
+* Insert the E4 cardboard on A cardboard, align with holes at A and B2 cardboard<P>
+
+![pic_80](images/Case10/Case10_ass3.png)<P>
 
 
 <span id="subtitle">Step 4</span><BR><P>
-* Insert the E2 cardboard on A cardboard, align with holes at A and B3 cardboard
-![auto_fit](images/Case10/Case10_ass4.png)<P>
+* Insert the E2 cardboard on A cardboard, align with holes at A and B3 cardboard<P>
+
+![pic_80](images/Case10/Case10_ass4.png)<P>
 
 
 <span id="subtitle">Step 5</span><BR><P>
-* Build the sofa with cardboard K1,K2,K3
-![auto_fit](images/Case10/Case10_ass5.png)<P>
+* Build the sofa with cardboard K1,K2,K3<P>
+
+![pic_80](images/Case10/Case10_ass5.png)<P>
 
 
 <span id="subtitle">Step 6</span><BR><P>
-* Plase the sofa model at suitable position
-![auto_fit](images/Case10/Case10_ass6.png)<P>
+* Plase the sofa model at suitable position<P>
+
+![pic_80](images/Case10/Case10_ass6.png)<P>
 
 
 ## Hardware connect
@@ -62,18 +68,18 @@ In this scenario, integrated temperature and humidity sensor DHT11 is used. It c
 3. Connect the OLED display to IoT:bit I2C port with extend cable
 
 
-![auto_fit](images/Case10/Case10_hardware.png)<P>
+![pic_80](images/Case10/Case10_hardware.png)<P>
 
 ## IoT (Thingspeak)
 <HR>
 
 <span id="subtitle">Step 1. Create Thingspeak channel</span><BR><P>
 * Go the [Thingspeak](https://thingspeak.com) create an account and create a channel
-![auto_fit](images/Case10/Case10_p1.png)<P>
+![pic_90](images/Case10/Case10_p1.png)<P>
 
 <span id="subtitle">Step 2. Get channel API</span><BR><P>
 * After created a new channel, get the write in API
-![auto_fit](images/Case10/Case10_p2.png)<P>
+![pic_90](images/Case10/Case10_p2.png)<P>
 
 
 ## Programming (MakeCode)

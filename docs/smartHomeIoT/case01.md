@@ -6,13 +6,13 @@ Level: ![level](images/level1.png)
 
 ## Goal
 <HR>
-Make a smart saving light bulb by detecting motion around the environment.<P>
+Make a smart light bulb by detecting motion around the environment.<P>
 
 ## Background
 <HR>
-<span id="subtitle">What is a Smart Saving Light Bulb?</span><P>
+<span id="subtitle">What is a Smart Light Bulb?</span><P>
 
-Smart saving light bulb is a light bulb that turns on and off automatically depending on the presence of people around the environment. Deploying it in home toilets can help save electricity. When no one is inside the toilet the bulb will automatically turn off.<P>
+People always forget to turn off the light when he/she leave. Smart light bulb is a light bulb that turns on and off automatically depending on the presence of people around the environment.  If it detects no motion for more than like 10 mins, it turns off automatically. Deploying it in home toilets can help save electricity. <P>
 
 <span id="subtitle">Smart Saving Light Bulb operation</span><P>
 
@@ -21,7 +21,7 @@ Motion sensor is used to detect the presence of human activity in the room. If t
 ## Part List
 <HR>
 
-![auto_fit](images/Case1/Case1_parts.png)<P>
+![pic_90](images/Case1/Case1_parts.png)<P>
 
 
 ## Assembly step
@@ -31,7 +31,7 @@ Motion sensor is used to detect the presence of human activity in the room. If t
  Pick one corner of the house. In this example, we pick the left upper corner, install the 2 walls (E1 & E2) to build a small room.<BR><P>
 ![auto_fit](images/Case1/Case1_ass1.png)<P>
 <span id="subtitle">Step 2</span><BR><P>
-Use M4 screw to Install the motion sensor on wall<BR><P>
+Use M4 screw to install the motion sensor on wall<BR><P>
 ![auto_fit](images/Case1/Case1_ass2.png)<P>
 <span id="subtitle">Step 3</span><BR><P>
 Use M4 screw to install the multi-color LED on wall<BR><P>
@@ -63,7 +63,7 @@ Place the bed in the bedroom<BR><P>
 * Before using the Multi-Color LED, need to do initialize
 * Pull the `set strip to NeoPixel at pin P1 with 1 leds as RGB(GRB format)` to `on start`
 
-![auto_fit](images/Case1/Case1_p1.png)<P>
+![pic_90](images/Case1/Case1_p1.png)<P>
 
 <span id="subtitle">Step 2. Change the LED Color by motion sensor result</span><BR><P> 
 * In `Forever`, add a `if-else` statement

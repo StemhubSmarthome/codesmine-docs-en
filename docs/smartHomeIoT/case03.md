@@ -22,13 +22,14 @@ The temperature and humidity sensor installed in the house will scan for surroun
 ## Part List
 <HR>
 
-![auto_fit](images/Case3/Case3_parts.png)<P>
+![pic_90](images/Case3/Case3_parts.png)<P>
 
 ## Assembly step
 <HR>
 
 <span id="subtitle">Step1</span><P>
-Use M4 screws to install the Temperature and humidity sensor (DHT11) and use M2 screws to install OLED display to E4 cardboard<BR><P>
+Use M4 screws and nuts to install the Temperature and humidity sensor (DHT11) <BR><P>
+Use M2 screws and nuts to install OLED display to E4 cardboard<BR><P>
 ![pic_70](images/Case3/Case3_ass1.png)<P>
 <span id="subtitle">Step 2</span><P>
 Use M4 screws to install motor module to F cardboard
@@ -57,18 +58,18 @@ Place at the room corner<BR><P>
 1. Connect the Temperature and Humidity sensor (DHT11) to P2
 2. Connect the extended OLED display to I2C Port 
 3. Connect the Motor module to P1
-![pic](images/Case3/Case3_hardware.png)<P>
+![pic_80](images/Case3/Case3_hardware.png)<P>
 
 ## Programming (MakeCode)
 <HR>
 
 <span id="subtitle">Step 1. Initialize OLED display</span><P>
 * In `on start`, put `initialize OLED with width 128 height 64` to initialize the OLED display
-![auto_fit](images/Case3/Case3_p1.png)<P>
+![pic_70](images/Case3/Case3_p1.png)<P>
 
 <span id="subtitle">Step 2. Create variable</span><P>
 * Create a variable called `temperature`
-![pic_70](images/Case3/Case3_p2.png)<P>
+![pic_50](images/Case3/Case3_p2.png)<P>
 
 <span id="subtitle">Step 3. Read and show the reading from DHT11</span><P>
 * In `Forever`, read the data by `Read Temperature & Humidity Sensor at pin P2`
@@ -76,7 +77,7 @@ Place at the room corner<BR><P>
 * Before update the screen infomation, suggest clear up the OLED display each time
 * Use `clear OLED display` to clear the display
 * Then use `show string join Temperature: temperature` to show the temperature value with formatted text on display
-![pic_90](images/Case3/Case3_p3.png)<P>
+![pic_80](images/Case3/Case3_p3.png)<P>
 
 <span id="subtitle">Step 4. Examine the temperature</span><P>
 * In `Forever`, put a nested `if-else` statement

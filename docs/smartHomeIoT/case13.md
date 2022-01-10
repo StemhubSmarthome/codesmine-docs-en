@@ -23,14 +23,35 @@ By using Smarthon IoT:bit extension on IFTTT platform, commands can be pre-set s
 ## Part List
 <HR>
 
-![auto_fit](images/Case13/Case13_parts.png)<P>
+![pic_90](images/Case13/Case13_parts.png)<P>
  
 ## Assembly step
 <HR>
 
 <span id="subtitle">Step 1</span><BR><P>
-Use M4 screw and nuts to install the Multi-color LED to B4 cardboard<BR><P>
-![auto_fit](images/Case13/blank.png)<P>
+Use M4 screws and nuts to install motor module to F cardboard<BR><P>
+![auto_fit](images/Case13/Case13_ass1.png)<P>
+
+<span id="subtitle">Step 2</span><BR><P>
+Insert the F cardboard to B3 and B4 cardboard, align witht the holes on B3 and B4<BR><P>
+![pic_80](images/Case13/Case13_ass2.png)<P>
+
+<span id="subtitle">Step 3</span><BR><P>
+Insert the E2 cardboard on A cardboard, align with the holes on A and B3<BR><P>
+![pic_80](images/Case13/Case13_ass3.png)<P>
+
+<span id="subtitle">Step 4</span><BR><P>
+Build a sofa model with K1,K2,K3 cardboards<BR><P>
+![pic_80](images/Case13/Case13_ass4.png)<P>
+
+<span id="subtitle">Step 5</span><BR><P>
+Place the sofa at the suitable position<BR><P>
+![pic_80](images/Case13/Case13_ass5.png)<P>
+
+<span id="subtitle">Step 6</span><BR><P>
+Place the Alexa device at the suitable position<BR><P>
+![pic_80](images/Case13/Case13_ass6.png)<P>
+
 
 
 
@@ -39,7 +60,7 @@ Use M4 screw and nuts to install the Multi-color LED to B4 cardboard<BR><P>
 <HR>
 
 1. Connect the motor module to P1
-![auto_fit](images/Case13/Case13_hardware.png)<P>
+![pic_80](images/Case13/Case13_hardware.png)<P>
 
 ## Programming (MakeCode)
 <HR>
@@ -69,7 +90,7 @@ Use M4 screw and nuts to install the Multi-color LED to B4 cardboard<BR><P>
 * In the second `if` condition, use `WAN_Command = turn_on_fan`
 * In the second `if` segment, turn on the fan by `set Motor fan with speed 1023 at P1`
 
-![auto_fit](images/Case13/Case13_p4.png)<P>
+![pic_80](images/Case13/Case13_p4.png)<P>
 
 <span id="subtitle">Full Solution<BR><P>
 MakeCode: [https://makecode.microbit.org/_eW2fDXbpAFU3](https://makecode.microbit.org/_eW2fDXbpAFU3)<BR><P>
@@ -124,7 +145,7 @@ You could also download the program from the following website:<BR>
 ![pic_70](images/Case13/Case13_iot8.png)<P>
 
 * Input the `Device ID` for your IoT:Bit, and the `Command` need to send to IoT:bit
-![pic_90](images/Case13/Case13_iot9.png)<P>
+![pic_80](images/Case13/Case13_iot9.png)<P>
 
 * Finish the setup of applet
 ![pic_80](images/Case13/Case13_iot10.png)<P>
@@ -133,11 +154,10 @@ You could also download the program from the following website:<BR>
 ## Result
 <HR>
 When say “Alexa trigger turn on the fan”, the fan will be turn on<BR><P>
-
-![auto_fit](images/Case13/Case13_result1.png)<P>
-When say “ Alexa trigger turn off the fan”, the fan will be turn off
+When say “Alexa trigger turn off the fan”, the fan will be turn off
 <BR><P>
-![pic_90](images/Case13/Case13_result2.png)<P>
+
+![pic_90](images/Case13/Case13_result.png)<P>
 
 
 ## Think

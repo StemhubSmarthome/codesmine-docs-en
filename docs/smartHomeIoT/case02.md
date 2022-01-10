@@ -22,7 +22,7 @@ Motion sensor and distance sensor is implemented over the house and monitor the 
 ## Part List
 <HR>
 
-![auto_fit](images/Case2/Case2_parts.png)<P>
+![pic_90](images/Case2/Case2_parts.png)<P>
 
 ## Assembly step
 <HR>
@@ -34,11 +34,11 @@ Build and install an extra Room (D1-D4) to the House Base
 ![auto_fit](images/Case2/Case2_ass2.png)<P>
 ![auto_fit](images/Case2/Case2_ass3.png)<P>
 <span id="subtitle">Step 2</span><BR><P>
-Use M4 screw install the ultrasonic distance sensor to the model D3
+Use M4 screw and nuts to install the ultrasonic distance sensor to the model D3
 <BR><P>
 ![auto_fit](images/Case2/Case2_ass4.png)<P>
 <span id="subtitle">Step 3</span><BR><P>
-Use M4 screw Install the motion sensor near the door (Model B1)
+Use M4 screw and nuts to install the motion sensor near the door (Model B1)
 <BR><P>
 ![auto_fit](images/Case2/Case2_ass5.png)<P>
 
@@ -51,7 +51,7 @@ Use M4 screw Install the motion sensor near the door (Model B1)
 2. Connect Distance Sensor to P14,P15
 3. Pull down the buzzer switch to connect buzzer
 
-![auto_fit](images/Case2/Case2_hardware.png)<P>
+![pic_90](images/Case2/Case2_hardware.png)<P>
 
 ## Programming (MakeCode)
 <HR>

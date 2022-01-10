@@ -15,41 +15,46 @@ Make a smart colorful light that will change colors upon remote control.
 <span id="subtitle">What is Smart Colorful Light?</span><BR><P>
 A smart colorful light is a multi-color LED light that allows switching color of light between various colors, usually being able to be requested through remote control, for example a mobile app. It is a good device for adjusting the room light according to needs, like when sleeping or switching moods.
 <BR><P>
-<span id="subtitle">Roof garden clothes rack operation</span><BR><P>
+<span id="subtitle">Smart Colorful Light operation</span><BR><P>
 A smart light can be controlled through wireless communication, in this case a mobile app. Upon different colors chose from the application, respective commands will be sent through Internet and thus reaching the light, and the light will react and change the color as requested.<BR><P>
 
 
 ## Part List
 <HR>
 
-![auto_fit](images/Case12/Case12_parts.png)<P>
+![pic_90](images/Case12/Case12_parts.png)<P>
  
 ## Assembly step
 <HR>
 
 <span id="subtitle">Step 1</span><BR><P>
 Use M4 screw and nuts to install the Multi-color LED to B4 cardboard<BR><P>
-![auto_fit](images/Case12/Case12_ass1.png)<P>
+![pic_80](images/Case12/Case12_ass1.png)<P>
 
 <span id="subtitle">Step 2</span><BR><P>
 Insert the E3 cardboard on A cardboard, align with holes at A and B3 cardboard
 <BR><P>
-![auto_fit](images/Case12/Case12_ass2.png)<P>
+![pic_80](images/Case12/Case12_ass2.png)<P>
 
 <span id="subtitle">Step 3</span><BR><P>
 Insert the E2 cardboard on A cardboard, align with the holes at A and B3 cardboard
 <BR><P>
-![auto_fit](images/Case12/Case12_ass3.png)<P>
+![pic_80](images/Case12/Case12_ass3.png)<P>
 
 <span id="subtitle">Step 4</span><BR><P>
 Build the bed model with J1,J2,J3,J4 cardboard
 <BR><P>
-![auto_fit](images/Case12/Case12_ass4.jpg)<P>
+![pic_80](images/Case12/Case12_ass4.jpg)<P>
 
 <span id="subtitle">Step 5</span><BR><P>
 Place the bed at the suitable position
 <BR><P>
-![auto_fit](images/Case12/Case12_ass5.png)<P>
+![pic_80](images/Case12/Case12_ass5.png)<P>
+
+<span id="subtitle">Step 6</span><BR><P>
+Place the Decoration Display (H cardboard) at the suitable position
+<BR><P>
+![pic_80](images/Case12/Case12_ass5.png)<P>
 
 
 ## Hardware connect
@@ -57,7 +62,7 @@ Place the bed at the suitable position
 
 1. Connect the Multi-color LED (WS2812) to P0
 2. Pull up the buzzer switch to disconnect the buzzer
-![auto_fit](images/Case12/Case12_hardware.png)<P>
+![pic_80](images/Case12/Case12_hardware.png)<P>
 
 ## Programming (MakeCode)
 <HR>
@@ -104,7 +109,7 @@ You could also download the program from the following website:<BR>
 
 * In the designer page, pull the layout element from the left side to the editor 
 
-![pic_80](images/Case12/Case12_p5.png)<P>
+![pic_70](images/Case12/Case12_p5.png)<P>
 
 * In this example case, using different `button`, `textbox`, `label` and `layout control`
 * Place the element in your way

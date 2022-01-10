@@ -95,24 +95,24 @@ Before we build a small house model, we need to cut the cardboard as instruction
 <span id="subtitle">Step 1</span><BR><P>
 * Insert the B2,B4 cardboard on A, align with the holes on A <P>
 
-![auto_fit](images/assembly/house_small_ass1.png)
+![pic_90](images/assembly/house_small_ass1.png)
 <span id="subtitle">Step 2</span><BR><P>
 * Insert the B3 cardboard on A, align with the holes on A,B2,B4 <P>
 
-![auto_fit](images/assembly/house_small_ass2.png)
+![pic_90](images/assembly/house_small_ass2.png)
 
 <span id="subtitle">Step 3</span><BR><P>
 * Insert the B1 cardboard on A, align with the holes on A,B2,B4 <P>
 
-![auto_fit](images/assembly/house_small_ass3.png)
+![pic_90](images/assembly/house_small_ass3.png)
 
 <span id="subtitle">Step 4</span><BR><P>
 * Insert the C1 cardboard on B1,B2,B3,B4, align with the holes on them
-![auto_fit](images/assembly/house_small_ass4.png)
+![pic_90](images/assembly/house_small_ass4.png)
 
 <span id="subtitle">Step 5</span><BR><P>
 * Finish
-![auto_fit](images/assembly/house_small_ass5.jpg)
+![pic_90](images/assembly/house_small_ass5.jpg)
 
 ### Optional: Extra Room
 <HR>
@@ -156,19 +156,19 @@ Before we build a open model, we need to cut the cardboard as instruction on car
 <span id="subtitle">Step 1</span><BR><P>
 * Insert the B2,B4 on A, align with holes on A <P>
 
-![auto_fit](images/assembly/house_open_ass1.png)
+![pic_90](images/assembly/house_open_ass1.png)
 
 <span id="subtitle">Step 2</span><BR><P>
 * Insert the B3 on A, align with holes on A, B2, B4 <P>
 
-![auto_fit](images/assembly/house_open_ass2.png)
+![pic_90](images/assembly/house_open_ass2.png)
 
 <span id="subtitle">Step 3</span><BR><P>
 *  Insert the B1 on A, align with holes on A, B2, B4 <P>
 
-![auto_fit](images/assembly/house_open_ass3.png)
+![pic_90](images/assembly/house_open_ass3.png)
 
 <span id="subtitle">Step 4</span><BR><P>
 * Finish <P>
 
-![auto_fit](images/assembly/house_open_ass4.jpg)
+![pic_90](images/assembly/house_open_ass4.jpg)
