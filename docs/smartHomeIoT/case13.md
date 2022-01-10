@@ -1,7 +1,7 @@
 # IoT Case 13: Alexa Voice Control Fan
 
 Level: ![level](images/level5.png)
-![auto_fit](images/Case13/blank.png)<P>
+
 
 ## Goal
 <HR>
