@@ -61,7 +61,7 @@ Place the cooking stove model to correct place<BR><P>
 ![pic_80](images/Case11/case11_ass7.png)<P>
 
 <span id="subtitle">Step 8 (Optional)</span><BR><P>
-Place the fridge model to correct place  <BR><P>
+Place the fridge model to suitable place  <BR><P>
 
 ![pic_80](images/Case11/case11_ass8.png)<P>
 
@@ -84,27 +84,31 @@ Place the fridge model to correct place  <BR><P>
 1. Create a IFTTT account and login
 2. Create a new Applet
 3. In the IF, search "Webhooks" and click the Webhooks application<BR>
-![auto_fit](images/Case11/Case11_iot1.png)<P>
+![pic_80](images/Case11/Case11_iot1.png)<P>
 4. Choose the "Received a web request" and enter the event name "fire"<BR>
-![auto_fit](images/Case11/Case11_iot2.png)<P>
+![pic_80](images/Case11/Case11_iot2.png)<P>
+![pic_80](images/Case11/Case11_iot3.png)<P>
 5. In the THEN, search "Notifications" and click the notifications application
 6. Choose the "Send a notification from the IFTTT App"<BR>
-![auto_fit](images/Case11/Case11_iot3.png)<P>
+![pic_80](images/Case11/Case11_iot4.png)<P>
 7. After the applet is finish setup, click the Webhooks icon -> documentation<BR>
-![auto_fit](images/Case11/Case11_iot4.png)<P>
+![pic_80](images/Case11/Case11_iot5.png)<P><BR>
+![pic_80](images/Case11/Case11_iot6.png)<P>
 8. Copy the Key<BR>
-![auto_fit](images/Case11/Case11_iot5.png)<P>
+![pic_80](images/Case11/Case11_iot7.png)<P>
 <HR>
 <H4>Optional: Use email as notification method</H4>
 
 In the THEN field, search for the “email” and use it to replace the “notifications” in previous step
-![auto_fit](images/Case11/Case11_iot6.png)<P><HR>
+![pic_70](images/Case11/Case11_iot8.png)<P>
+![pic_70](images/Case11/Case11_iot9.png)<P>
+![pic_70](images/Case11/Case11_iot10.png)<P>
 
 ### Part 2: Install the IFTTT App on smartphone
 1. Go to play store or app store to search and download the IFTTT App
-![auto_fit](images/Case11/Case11_iot7.png)<P>
+![auto_fit](images/Case11/Case11_iot11.png)<P>
 2. Login to your IFTTT account
-![auto_fit](images/Case11/Case11_iot8.png)<P>
+![auto_fit](images/Case11/Case11_iot12.png)<P>
 
 ## Programming (MakeCode)
 <HR>
