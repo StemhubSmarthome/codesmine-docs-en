@@ -18,3 +18,4 @@ Sensors and actuators
     Motor.md
     Button.md
     Flame_sensor.md
+    Servo.md
