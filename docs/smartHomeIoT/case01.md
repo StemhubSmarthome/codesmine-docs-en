@@ -12,7 +12,7 @@ Make a smart light bulb by detecting motion around the environment.<P>
 <HR>
 <span id="subtitle">What is a Smart Light Bulb?</span><P>
 
-People always forget to turn off the light when he/she leave. Smart light bulb is a light bulb that turns on and off automatically depending on the presence of people around the environment.  If it detects no motion for more than like 10 mins, it turns off automatically. Deploying it in home toilets can help save electricity. <P>
+Smart light bulb is a smart light bulb that helps automation and saving electricity. When there is people coming in, the bulb will be turned on automatically. People always forget to turn off the light when he/she leave. After 10 mins, if there are no any motions inside the room, it will close the LED to save energy. <P>
 
 <span id="subtitle">Smart Saving Light Bulb operation</span><P>
 
