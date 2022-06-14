@@ -14,5 +14,5 @@ Quick Start Guide
     :maxdepth: 1
 
 
-    smarthouse/index
+    smarthome/index
 
