@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Smarthon!
+Welcome to Codesmine!
 ====================
 
 
@@ -13,8 +13,7 @@ Quick Start Guide
 .. toctree::
     :maxdepth: 1
 
+
+    smarthome/index
     smartcity/index
-    Sensors_and_actuators/index
-    smarthouse/index
-    smartplant/index
 
