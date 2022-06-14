@@ -15,4 +15,5 @@ Quick Start Guide
 
 
     smarthome/index
+    smartcity/index
 
