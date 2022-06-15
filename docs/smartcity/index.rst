@@ -7,14 +7,14 @@ Smart City IoT Starter Kit
     :numbered: 3
 
 
-    intro.en.md
-    1.en.md
-    2.en.md
-    3.en.md
-    4.en.md
-    5.en.md
-    6.en.md
-    7.en.md
-    8.en.md
-    9.en.md
-    10.en.md
+    intro.md
+    1.md
+    2.md
+    3.md
+    4.md
+    5.md
+    6.md
+    7.md
+    8.md
+    9.md
+    10.md
