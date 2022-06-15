@@ -7,7 +7,7 @@ Welcome to Codesmine!
 ====================
 
 
-Quick Start Guide
+Tutorial guide
 ^^^^^^^^^^^^^^^^^
 
 .. toctree::

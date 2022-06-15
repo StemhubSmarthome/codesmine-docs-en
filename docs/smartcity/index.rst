@@ -1,4 +1,4 @@
-Smarthon Smart City IoT Starter Kit
+Smart City IoT Starter Kit
 ===================================
 
 
