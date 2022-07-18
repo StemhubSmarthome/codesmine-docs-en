@@ -1,4 +1,4 @@
-Micro: bit M1 SMART CAR
+Micro: bit M1 SMART CAR_Beginner
 ===================================
 
 
