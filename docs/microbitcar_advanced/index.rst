@@ -1,4 +1,4 @@
-Micro:bit M1 Car_advanced
+Micro:bit M1 SMART CAR_Advanced
 ===================================
 
 .. toctree::
