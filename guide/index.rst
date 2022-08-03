@@ -8,7 +8,7 @@ Header 2
 .. toctree::
     :maxdepth: 1
 
-/ dsfd/
+
     1/index
     2/index
     3/index
