@@ -4,3 +4,5 @@
 ![](2.png)
 3. create index.rst in folder
 ![](3.png)
+4. create relative file in folder
+![](4.png)
