@@ -6,3 +6,4 @@
 ![](3.png)
 4. create relative file in folder
 ![](4.png)
+<a href="https://github.com/StemhubSmarthome/codesmine-docs-en/blob/master/guide/1/1.md">Markdown Example</a>
