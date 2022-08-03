@@ -3,3 +3,4 @@
 2. create relative folder in same path
 ![](2.png)
 3. create index.rst in folder
+![](3.png)
